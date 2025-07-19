@@ -1,0 +1,607 @@
+text,label
+081109 203500 147 INFO dfs.DataNode$PacketResponder: Received block blk_0 of size 10000 from /10.250.7.200,1
+081109 203501 148 INFO dfs.DataNode$PacketResponder: Received block blk_1 of size 10010 from /10.250.7.201,1
+081109 203502 149 INFO dfs.DataNode$PacketResponder: Received block blk_2 of size 10020 from /10.250.7.202,1
+081109 203503 150 INFO dfs.DataNode$PacketResponder: Received block blk_3 of size 10030 from /10.250.7.203,1
+081109 203504 151 INFO dfs.DataNode$PacketResponder: Received block blk_4 of size 10040 from /10.250.7.204,1
+081109 203505 152 INFO dfs.DataNode$PacketResponder: Received block blk_5 of size 10050 from /10.250.7.205,1
+081109 203506 153 INFO dfs.DataNode$PacketResponder: Received block blk_6 of size 10060 from /10.250.7.206,1
+081109 203507 154 INFO dfs.DataNode$PacketResponder: Received block blk_7 of size 10070 from /10.250.7.207,1
+081109 203508 155 INFO dfs.DataNode$PacketResponder: Received block blk_8 of size 10080 from /10.250.7.208,1
+081109 203509 156 INFO dfs.DataNode$PacketResponder: Received block blk_9 of size 10090 from /10.250.7.209,1
+081109 203510 157 INFO dfs.DataNode$PacketResponder: Received block blk_10 of size 10100 from /10.250.7.210,1
+081109 203511 158 INFO dfs.DataNode$PacketResponder: Received block blk_11 of size 10110 from /10.250.7.211,1
+081109 203512 159 INFO dfs.DataNode$PacketResponder: Received block blk_12 of size 10120 from /10.250.7.212,1
+081109 203513 160 INFO dfs.DataNode$PacketResponder: Received block blk_13 of size 10130 from /10.250.7.213,1
+081109 203514 161 INFO dfs.DataNode$PacketResponder: Received block blk_14 of size 10140 from /10.250.7.214,1
+081109 203515 162 INFO dfs.DataNode$PacketResponder: Received block blk_15 of size 10150 from /10.250.7.215,1
+081109 203516 163 INFO dfs.DataNode$PacketResponder: Received block blk_16 of size 10160 from /10.250.7.216,1
+081109 203517 164 INFO dfs.DataNode$PacketResponder: Received block blk_17 of size 10170 from /10.250.7.217,1
+081109 203518 165 INFO dfs.DataNode$PacketResponder: Received block blk_18 of size 10180 from /10.250.7.218,1
+081109 203519 166 INFO dfs.DataNode$PacketResponder: Received block blk_19 of size 10190 from /10.250.7.219,1
+081109 203520 167 INFO dfs.DataNode$PacketResponder: Received block blk_20 of size 10200 from /10.250.7.220,1
+081109 203521 168 INFO dfs.DataNode$PacketResponder: Received block blk_21 of size 10210 from /10.250.7.221,1
+081109 203522 169 INFO dfs.DataNode$PacketResponder: Received block blk_22 of size 10220 from /10.250.7.222,1
+081109 203523 170 INFO dfs.DataNode$PacketResponder: Received block blk_23 of size 10230 from /10.250.7.223,1
+081109 203524 171 INFO dfs.DataNode$PacketResponder: Received block blk_24 of size 10240 from /10.250.7.224,1
+081109 203525 172 INFO dfs.DataNode$PacketResponder: Received block blk_25 of size 10250 from /10.250.7.225,1
+081109 203526 173 INFO dfs.DataNode$PacketResponder: Received block blk_26 of size 10260 from /10.250.7.226,1
+081109 203527 174 INFO dfs.DataNode$PacketResponder: Received block blk_27 of size 10270 from /10.250.7.227,1
+081109 203528 175 INFO dfs.DataNode$PacketResponder: Received block blk_28 of size 10280 from /10.250.7.228,1
+081109 203529 176 INFO dfs.DataNode$PacketResponder: Received block blk_29 of size 10290 from /10.250.7.229,1
+081109 203530 177 INFO dfs.DataNode$PacketResponder: Received block blk_30 of size 10300 from /10.250.7.230,1
+081109 203531 178 INFO dfs.DataNode$PacketResponder: Received block blk_31 of size 10310 from /10.250.7.231,1
+081109 203532 179 INFO dfs.DataNode$PacketResponder: Received block blk_32 of size 10320 from /10.250.7.232,1
+081109 203533 180 INFO dfs.DataNode$PacketResponder: Received block blk_33 of size 10330 from /10.250.7.233,1
+081109 203534 181 INFO dfs.DataNode$PacketResponder: Received block blk_34 of size 10340 from /10.250.7.234,1
+081109 203535 182 INFO dfs.DataNode$PacketResponder: Received block blk_35 of size 10350 from /10.250.7.235,1
+081109 203536 183 INFO dfs.DataNode$PacketResponder: Received block blk_36 of size 10360 from /10.250.7.236,1
+081109 203537 184 INFO dfs.DataNode$PacketResponder: Received block blk_37 of size 10370 from /10.250.7.237,1
+081109 203538 185 INFO dfs.DataNode$PacketResponder: Received block blk_38 of size 10380 from /10.250.7.238,1
+081109 203539 186 INFO dfs.DataNode$PacketResponder: Received block blk_39 of size 10390 from /10.250.7.239,1
+081109 203540 187 INFO dfs.DataNode$PacketResponder: Received block blk_40 of size 10400 from /10.250.7.240,1
+081109 203541 188 INFO dfs.DataNode$PacketResponder: Received block blk_41 of size 10410 from /10.250.7.241,1
+081109 203542 189 INFO dfs.DataNode$PacketResponder: Received block blk_42 of size 10420 from /10.250.7.242,1
+081109 203543 190 INFO dfs.DataNode$PacketResponder: Received block blk_43 of size 10430 from /10.250.7.243,1
+081109 203544 191 INFO dfs.DataNode$PacketResponder: Received block blk_44 of size 10440 from /10.250.7.244,1
+081109 203545 192 INFO dfs.DataNode$PacketResponder: Received block blk_45 of size 10450 from /10.250.7.245,1
+081109 203546 193 INFO dfs.DataNode$PacketResponder: Received block blk_46 of size 10460 from /10.250.7.246,1
+081109 203547 194 INFO dfs.DataNode$PacketResponder: Received block blk_47 of size 10470 from /10.250.7.247,1
+081109 203548 195 INFO dfs.DataNode$PacketResponder: Received block blk_48 of size 10480 from /10.250.7.248,1
+081109 203549 196 INFO dfs.DataNode$PacketResponder: Received block blk_49 of size 10490 from /10.250.7.249,1
+081109 203550 197 INFO dfs.DataNode$PacketResponder: Received block blk_50 of size 10500 from /10.250.7.200,1
+081109 203551 198 INFO dfs.DataNode$PacketResponder: Received block blk_51 of size 10510 from /10.250.7.201,1
+081109 203552 199 INFO dfs.DataNode$PacketResponder: Received block blk_52 of size 10520 from /10.250.7.202,1
+081109 203553 200 INFO dfs.DataNode$PacketResponder: Received block blk_53 of size 10530 from /10.250.7.203,1
+081109 203554 201 INFO dfs.DataNode$PacketResponder: Received block blk_54 of size 10540 from /10.250.7.204,1
+081109 203555 202 INFO dfs.DataNode$PacketResponder: Received block blk_55 of size 10550 from /10.250.7.205,1
+081109 203556 203 INFO dfs.DataNode$PacketResponder: Received block blk_56 of size 10560 from /10.250.7.206,1
+081109 203557 204 INFO dfs.DataNode$PacketResponder: Received block blk_57 of size 10570 from /10.250.7.207,1
+081109 203558 205 INFO dfs.DataNode$PacketResponder: Received block blk_58 of size 10580 from /10.250.7.208,1
+081109 203559 206 INFO dfs.DataNode$PacketResponder: Received block blk_59 of size 10590 from /10.250.7.209,1
+081109 203560 207 INFO dfs.DataNode$PacketResponder: Received block blk_60 of size 10600 from /10.250.7.210,1
+081109 203561 208 INFO dfs.DataNode$PacketResponder: Received block blk_61 of size 10610 from /10.250.7.211,1
+081109 203562 209 INFO dfs.DataNode$PacketResponder: Received block blk_62 of size 10620 from /10.250.7.212,1
+081109 203563 210 INFO dfs.DataNode$PacketResponder: Received block blk_63 of size 10630 from /10.250.7.213,1
+081109 203564 211 INFO dfs.DataNode$PacketResponder: Received block blk_64 of size 10640 from /10.250.7.214,1
+081109 203565 212 INFO dfs.DataNode$PacketResponder: Received block blk_65 of size 10650 from /10.250.7.215,1
+081109 203566 213 INFO dfs.DataNode$PacketResponder: Received block blk_66 of size 10660 from /10.250.7.216,1
+081109 203567 214 INFO dfs.DataNode$PacketResponder: Received block blk_67 of size 10670 from /10.250.7.217,1
+081109 203568 215 INFO dfs.DataNode$PacketResponder: Received block blk_68 of size 10680 from /10.250.7.218,1
+081109 203569 216 INFO dfs.DataNode$PacketResponder: Received block blk_69 of size 10690 from /10.250.7.219,1
+081109 203570 217 INFO dfs.DataNode$PacketResponder: Received block blk_70 of size 10700 from /10.250.7.220,1
+081109 203571 218 INFO dfs.DataNode$PacketResponder: Received block blk_71 of size 10710 from /10.250.7.221,1
+081109 203572 219 INFO dfs.DataNode$PacketResponder: Received block blk_72 of size 10720 from /10.250.7.222,1
+081109 203573 220 INFO dfs.DataNode$PacketResponder: Received block blk_73 of size 10730 from /10.250.7.223,1
+081109 203574 221 INFO dfs.DataNode$PacketResponder: Received block blk_74 of size 10740 from /10.250.7.224,1
+081109 203575 222 INFO dfs.DataNode$PacketResponder: Received block blk_75 of size 10750 from /10.250.7.225,1
+081109 203576 223 INFO dfs.DataNode$PacketResponder: Received block blk_76 of size 10760 from /10.250.7.226,1
+081109 203577 224 INFO dfs.DataNode$PacketResponder: Received block blk_77 of size 10770 from /10.250.7.227,1
+081109 203578 225 INFO dfs.DataNode$PacketResponder: Received block blk_78 of size 10780 from /10.250.7.228,1
+081109 203579 226 INFO dfs.DataNode$PacketResponder: Received block blk_79 of size 10790 from /10.250.7.229,1
+081109 203580 227 INFO dfs.DataNode$PacketResponder: Received block blk_80 of size 10800 from /10.250.7.230,1
+081109 203581 228 INFO dfs.DataNode$PacketResponder: Received block blk_81 of size 10810 from /10.250.7.231,1
+081109 203582 229 INFO dfs.DataNode$PacketResponder: Received block blk_82 of size 10820 from /10.250.7.232,1
+081109 203583 230 INFO dfs.DataNode$PacketResponder: Received block blk_83 of size 10830 from /10.250.7.233,1
+081109 203584 231 INFO dfs.DataNode$PacketResponder: Received block blk_84 of size 10840 from /10.250.7.234,1
+081109 203585 232 INFO dfs.DataNode$PacketResponder: Received block blk_85 of size 10850 from /10.250.7.235,1
+081109 203586 233 INFO dfs.DataNode$PacketResponder: Received block blk_86 of size 10860 from /10.250.7.236,1
+081109 203587 234 INFO dfs.DataNode$PacketResponder: Received block blk_87 of size 10870 from /10.250.7.237,1
+081109 203588 235 INFO dfs.DataNode$PacketResponder: Received block blk_88 of size 10880 from /10.250.7.238,1
+081109 203589 236 INFO dfs.DataNode$PacketResponder: Received block blk_89 of size 10890 from /10.250.7.239,1
+081109 203590 237 INFO dfs.DataNode$PacketResponder: Received block blk_90 of size 10900 from /10.250.7.240,1
+081109 203591 238 INFO dfs.DataNode$PacketResponder: Received block blk_91 of size 10910 from /10.250.7.241,1
+081109 203592 239 INFO dfs.DataNode$PacketResponder: Received block blk_92 of size 10920 from /10.250.7.242,1
+081109 203593 240 INFO dfs.DataNode$PacketResponder: Received block blk_93 of size 10930 from /10.250.7.243,1
+081109 203594 241 INFO dfs.DataNode$PacketResponder: Received block blk_94 of size 10940 from /10.250.7.244,1
+081109 203595 242 INFO dfs.DataNode$PacketResponder: Received block blk_95 of size 10950 from /10.250.7.245,1
+081109 203596 243 INFO dfs.DataNode$PacketResponder: Received block blk_96 of size 10960 from /10.250.7.246,1
+081109 203597 244 INFO dfs.DataNode$PacketResponder: Received block blk_97 of size 10970 from /10.250.7.247,1
+081109 203598 245 INFO dfs.DataNode$PacketResponder: Received block blk_98 of size 10980 from /10.250.7.248,1
+081109 203599 246 INFO dfs.DataNode$PacketResponder: Received block blk_99 of size 10990 from /10.250.7.249,1
+081109 2035100 247 INFO dfs.DataNode$PacketResponder: Received block blk_100 of size 11000 from /10.250.7.200,1
+081109 2035101 248 INFO dfs.DataNode$PacketResponder: Received block blk_101 of size 11010 from /10.250.7.201,1
+081109 2035102 249 INFO dfs.DataNode$PacketResponder: Received block blk_102 of size 11020 from /10.250.7.202,1
+081109 2035103 250 INFO dfs.DataNode$PacketResponder: Received block blk_103 of size 11030 from /10.250.7.203,1
+081109 2035104 251 INFO dfs.DataNode$PacketResponder: Received block blk_104 of size 11040 from /10.250.7.204,1
+081109 2035105 252 INFO dfs.DataNode$PacketResponder: Received block blk_105 of size 11050 from /10.250.7.205,1
+081109 2035106 253 INFO dfs.DataNode$PacketResponder: Received block blk_106 of size 11060 from /10.250.7.206,1
+081109 2035107 254 INFO dfs.DataNode$PacketResponder: Received block blk_107 of size 11070 from /10.250.7.207,1
+081109 2035108 255 INFO dfs.DataNode$PacketResponder: Received block blk_108 of size 11080 from /10.250.7.208,1
+081109 2035109 256 INFO dfs.DataNode$PacketResponder: Received block blk_109 of size 11090 from /10.250.7.209,1
+081109 2035110 257 INFO dfs.DataNode$PacketResponder: Received block blk_110 of size 11100 from /10.250.7.210,1
+081109 2035111 258 INFO dfs.DataNode$PacketResponder: Received block blk_111 of size 11110 from /10.250.7.211,1
+081109 2035112 259 INFO dfs.DataNode$PacketResponder: Received block blk_112 of size 11120 from /10.250.7.212,1
+081109 2035113 260 INFO dfs.DataNode$PacketResponder: Received block blk_113 of size 11130 from /10.250.7.213,1
+081109 2035114 261 INFO dfs.DataNode$PacketResponder: Received block blk_114 of size 11140 from /10.250.7.214,1
+081109 2035115 262 INFO dfs.DataNode$PacketResponder: Received block blk_115 of size 11150 from /10.250.7.215,1
+081109 2035116 263 INFO dfs.DataNode$PacketResponder: Received block blk_116 of size 11160 from /10.250.7.216,1
+081109 2035117 264 INFO dfs.DataNode$PacketResponder: Received block blk_117 of size 11170 from /10.250.7.217,1
+081109 2035118 265 INFO dfs.DataNode$PacketResponder: Received block blk_118 of size 11180 from /10.250.7.218,1
+081109 2035119 266 INFO dfs.DataNode$PacketResponder: Received block blk_119 of size 11190 from /10.250.7.219,1
+081109 2035120 267 INFO dfs.DataNode$PacketResponder: Received block blk_120 of size 11200 from /10.250.7.220,1
+081109 2035121 268 INFO dfs.DataNode$PacketResponder: Received block blk_121 of size 11210 from /10.250.7.221,1
+081109 2035122 269 INFO dfs.DataNode$PacketResponder: Received block blk_122 of size 11220 from /10.250.7.222,1
+081109 2035123 270 INFO dfs.DataNode$PacketResponder: Received block blk_123 of size 11230 from /10.250.7.223,1
+081109 2035124 271 INFO dfs.DataNode$PacketResponder: Received block blk_124 of size 11240 from /10.250.7.224,1
+081109 2035125 272 INFO dfs.DataNode$PacketResponder: Received block blk_125 of size 11250 from /10.250.7.225,1
+081109 2035126 273 INFO dfs.DataNode$PacketResponder: Received block blk_126 of size 11260 from /10.250.7.226,1
+081109 2035127 274 INFO dfs.DataNode$PacketResponder: Received block blk_127 of size 11270 from /10.250.7.227,1
+081109 2035128 275 INFO dfs.DataNode$PacketResponder: Received block blk_128 of size 11280 from /10.250.7.228,1
+081109 2035129 276 INFO dfs.DataNode$PacketResponder: Received block blk_129 of size 11290 from /10.250.7.229,1
+081109 2035130 277 INFO dfs.DataNode$PacketResponder: Received block blk_130 of size 11300 from /10.250.7.230,1
+081109 2035131 278 INFO dfs.DataNode$PacketResponder: Received block blk_131 of size 11310 from /10.250.7.231,1
+081109 2035132 279 INFO dfs.DataNode$PacketResponder: Received block blk_132 of size 11320 from /10.250.7.232,1
+081109 2035133 280 INFO dfs.DataNode$PacketResponder: Received block blk_133 of size 11330 from /10.250.7.233,1
+081109 2035134 281 INFO dfs.DataNode$PacketResponder: Received block blk_134 of size 11340 from /10.250.7.234,1
+081109 2035135 282 INFO dfs.DataNode$PacketResponder: Received block blk_135 of size 11350 from /10.250.7.235,1
+081109 2035136 283 INFO dfs.DataNode$PacketResponder: Received block blk_136 of size 11360 from /10.250.7.236,1
+081109 2035137 284 INFO dfs.DataNode$PacketResponder: Received block blk_137 of size 11370 from /10.250.7.237,1
+081109 2035138 285 INFO dfs.DataNode$PacketResponder: Received block blk_138 of size 11380 from /10.250.7.238,1
+081109 2035139 286 INFO dfs.DataNode$PacketResponder: Received block blk_139 of size 11390 from /10.250.7.239,1
+081109 2035140 287 INFO dfs.DataNode$PacketResponder: Received block blk_140 of size 11400 from /10.250.7.240,1
+081109 2035141 288 INFO dfs.DataNode$PacketResponder: Received block blk_141 of size 11410 from /10.250.7.241,1
+081109 2035142 289 INFO dfs.DataNode$PacketResponder: Received block blk_142 of size 11420 from /10.250.7.242,1
+081109 2035143 290 INFO dfs.DataNode$PacketResponder: Received block blk_143 of size 11430 from /10.250.7.243,1
+081109 2035144 291 INFO dfs.DataNode$PacketResponder: Received block blk_144 of size 11440 from /10.250.7.244,1
+081109 2035145 292 INFO dfs.DataNode$PacketResponder: Received block blk_145 of size 11450 from /10.250.7.245,1
+081109 2035146 293 INFO dfs.DataNode$PacketResponder: Received block blk_146 of size 11460 from /10.250.7.246,1
+081109 2035147 294 INFO dfs.DataNode$PacketResponder: Received block blk_147 of size 11470 from /10.250.7.247,1
+081109 2035148 295 INFO dfs.DataNode$PacketResponder: Received block blk_148 of size 11480 from /10.250.7.248,1
+081109 2035149 296 INFO dfs.DataNode$PacketResponder: Received block blk_149 of size 11490 from /10.250.7.249,1
+081109 203550 200 ERROR dfs.SecurityAlert: Unauthorized block deletion attempt detected on blk_-1000000000,-1
+081109 203551 201 ERROR dfs.SecurityAlert: Unauthorized block deletion attempt detected on blk_-1000000001,-1
+081109 203552 202 ERROR dfs.SecurityAlert: Unauthorized block deletion attempt detected on blk_-1000000002,-1
+081109 203553 203 ERROR dfs.SecurityAlert: Unauthorized block deletion attempt detected on blk_-1000000003,-1
+081109 203554 204 ERROR dfs.SecurityAlert: Unauthorized block deletion attempt detected on blk_-1000000004,-1
+081109 203555 205 ERROR dfs.SecurityAlert: Unauthorized block deletion attempt detected on blk_-1000000005,-1
+081109 203556 206 ERROR dfs.SecurityAlert: Unauthorized block deletion attempt detected on blk_-1000000006,-1
+081109 203557 207 ERROR dfs.SecurityAlert: Unauthorized block deletion attempt detected on blk_-1000000007,-1
+081109 203558 208 ERROR dfs.SecurityAlert: Unauthorized block deletion attempt detected on blk_-1000000008,-1
+081109 203559 209 ERROR dfs.SecurityAlert: Unauthorized block deletion attempt detected on blk_-1000000009,-1
+081109 203560 210 WARNING dfs.Security: Root password changed outside maintenance window,-1
+081109 203561 211 WARNING dfs.Security: Root password changed outside maintenance window,-1
+081109 203562 212 WARNING dfs.Security: Root password changed outside maintenance window,-1
+081109 203563 213 WARNING dfs.Security: Root password changed outside maintenance window,-1
+081109 203564 214 WARNING dfs.Security: Root password changed outside maintenance window,-1
+081109 203565 215 WARNING dfs.Security: Root password changed outside maintenance window,-1
+081109 203566 216 WARNING dfs.Security: Root password changed outside maintenance window,-1
+081109 203567 217 WARNING dfs.Security: Root password changed outside maintenance window,-1
+081109 203568 218 WARNING dfs.Security: Root password changed outside maintenance window,-1
+081109 203569 219 WARNING dfs.Security: Root password changed outside maintenance window,-1
+081109 203570 220 CRITICAL dfs.Audit: Multiple failed login attempts detected for user root,-1
+081109 203571 221 CRITICAL dfs.Audit: Multiple failed login attempts detected for user root,-1
+081109 203572 222 CRITICAL dfs.Audit: Multiple failed login attempts detected for user root,-1
+081109 203573 223 CRITICAL dfs.Audit: Multiple failed login attempts detected for user root,-1
+081109 203574 224 CRITICAL dfs.Audit: Multiple failed login attempts detected for user root,-1
+081109 203575 225 CRITICAL dfs.Audit: Multiple failed login attempts detected for user root,-1
+081109 203576 226 CRITICAL dfs.Audit: Multiple failed login attempts detected for user root,-1
+081109 203577 227 CRITICAL dfs.Audit: Multiple failed login attempts detected for user root,-1
+081109 203578 228 CRITICAL dfs.Audit: Multiple failed login attempts detected for user root,-1
+081109 203579 229 CRITICAL dfs.Audit: Multiple failed login attempts detected for user root,-1
+081109 203580 230 ERROR dfs.FSNamesystem: BLOCK* NameSystem.addStoredBlock: checksum mismatch detected on blk_-2000000000,-1
+081109 203581 231 ERROR dfs.FSNamesystem: BLOCK* NameSystem.addStoredBlock: checksum mismatch detected on blk_-2000000001,-1
+081109 203582 232 ERROR dfs.FSNamesystem: BLOCK* NameSystem.addStoredBlock: checksum mismatch detected on blk_-2000000002,-1
+081109 203583 233 ERROR dfs.FSNamesystem: BLOCK* NameSystem.addStoredBlock: checksum mismatch detected on blk_-2000000003,-1
+081109 203584 234 ERROR dfs.FSNamesystem: BLOCK* NameSystem.addStoredBlock: checksum mismatch detected on blk_-2000000004,-1
+081109 203585 235 ERROR dfs.FSNamesystem: BLOCK* NameSystem.addStoredBlock: checksum mismatch detected on blk_-2000000005,-1
+081109 203586 236 ERROR dfs.FSNamesystem: BLOCK* NameSystem.addStoredBlock: checksum mismatch detected on blk_-2000000006,-1
+081109 203587 237 ERROR dfs.FSNamesystem: BLOCK* NameSystem.addStoredBlock: checksum mismatch detected on blk_-2000000007,-1
+081109 203588 238 ERROR dfs.FSNamesystem: BLOCK* NameSystem.addStoredBlock: checksum mismatch detected on blk_-2000000008,-1
+081109 203589 239 ERROR dfs.FSNamesystem: BLOCK* NameSystem.addStoredBlock: checksum mismatch detected on blk_-2000000009,-1
+081109 203590 240 WARNING dfs.SecurityAlert: Suspicious repeated block transfer from unknown IP /10.99.99.100:50010,-1
+081109 203591 241 WARNING dfs.SecurityAlert: Suspicious repeated block transfer from unknown IP /10.99.99.101:50010,-1
+081109 203592 242 WARNING dfs.SecurityAlert: Suspicious repeated block transfer from unknown IP /10.99.99.102:50010,-1
+081109 203593 243 WARNING dfs.SecurityAlert: Suspicious repeated block transfer from unknown IP /10.99.99.103:50010,-1
+081109 203594 244 WARNING dfs.SecurityAlert: Suspicious repeated block transfer from unknown IP /10.99.99.104:50010,-1
+081109 203595 245 WARNING dfs.SecurityAlert: Suspicious repeated block transfer from unknown IP /10.99.99.105:50010,-1
+081109 203596 246 WARNING dfs.SecurityAlert: Suspicious repeated block transfer from unknown IP /10.99.99.106:50010,-1
+081109 203597 247 WARNING dfs.SecurityAlert: Suspicious repeated block transfer from unknown IP /10.99.99.107:50010,-1
+081109 203598 248 WARNING dfs.SecurityAlert: Suspicious repeated block transfer from unknown IP /10.99.99.108:50010,-1
+081109 203599 249 WARNING dfs.SecurityAlert: Suspicious repeated block transfer from unknown IP /10.99.99.109:50010,-1
+081109 203524 147 INFO dfs.DataNode$PacketResponder: Received block blk_-9073992586687739851 of size 11977 from /10.250.7.244,1
+081109 203525 150 ERROR dfs.FSNamesystem: BLOCK* NameSystem.addStoredBlock: checksum mismatch detected on blk_-1608999687919862906,-1
+081109 203526 151 CRITICAL dfs.Audit: Multiple failed login attempts detected for user root,-1
+081109 203527 152 WARNING dfs.Security: Root password changed outside maintenance window,-1
+081109 203528 153 ERROR dfs.DataNode$DataXceiver: Receiving block blk_-1608999687919862906 from blacklisted node /10.250.66.66:50010,-1
+081109 203529 154 INFO dfs.FSNamesystem: BLOCK* NameSystem.getAdditionalBlock: allocated new block blk_-2342342342342342342,1
+081109 203529 154 ERROR dfs.Security: Unauthorized user hacker attempted to access secure block blk_-1608999687919862906,-1
+081109 203531 156 INFO dfs.ClientProtocol: Successfully replicated block blk_-2342342342342342342 to 3 datanodes,1
+081109 203524 147 INFO dfs.DataNode$PacketResponder: Received block blk_-9073992586687739851 of size 11977 from /10.250.7.244,1
+081109 203530 155 INFO dfs.FSNamesystem: BLOCK* NameSystem.getAdditionalBlock: allocated new block blk_-2342342342342342342,1
+081109 203524 147 INFO dfs.DataNode$PacketResponder: Received block blk_-9073992586687739851 of size 11977 from /10.250.7.244,1
+081109 203531 156 INFO dfs.ClientProtocol: Successfully replicated block blk_-2342342342342342342 to 3 datanodes,1
+081109 203530 155 INFO dfs.FSNamesystem: BLOCK* NameSystem.getAdditionalBlock: allocated new block blk_-2342342342342342342,1
+081109 203533 158 INFO dfs.FSNamesystem: BLOCK* NameSystem.completeFile: file /user/hadoop/file1 closed successfully,1
+081109 203532 157 INFO dfs.DataNode: Block blk_-2342342342342342342 replication completed,1
+081109 203530 155 INFO dfs.FSNamesystem: BLOCK* NameSystem.getAdditionalBlock: allocated new block blk_-2342342342342342342,1
+081109 203533 158 INFO dfs.FSNamesystem: BLOCK* NameSystem.completeFile: file /user/hadoop/file1 closed successfully,1
+081109 203531 156 INFO dfs.ClientProtocol: Successfully replicated block blk_-2342342342342342342 to 3 datanodes,1
+081109 203524 147 INFO dfs.DataNode$PacketResponder: Received block blk_-9073992586687739851 of size 11977 from /10.250.7.244,1
+081109 203530 155 INFO dfs.FSNamesystem: BLOCK* NameSystem.getAdditionalBlock: allocated new block blk_-2342342342342342342,1
+081109 203532 157 INFO dfs.DataNode: Block blk_-2342342342342342342 replication completed,1
+081109 203524 147 INFO dfs.DataNode$PacketResponder: Received block blk_-9073992586687739851 of size 11977 from /10.250.7.244,1
+081109 203524 147 INFO dfs.DataNode$PacketResponder: Received block blk_-9073992586687739851 of size 11977 from /10.250.7.244,1
+081109 203533 158 INFO dfs.FSNamesystem: BLOCK* NameSystem.completeFile: file /user/hadoop/file1 closed successfully,1
+081109 203524 147 INFO dfs.DataNode$PacketResponder: Received block blk_-9073992586687739851 of size 11977 from /10.250.7.244,1
+081109 203529 154 ERROR dfs.Security: Unauthorized user hacker attempted to access secure block blk_-1608999687919862906,-1
+081109 203528 153 ERROR dfs.DataNode$DataXceiver: Receiving block blk_-1608999687919862906 from blacklisted node /10.250.66.66:50010,-1
+081109 203531 156 INFO dfs.ClientProtocol: Successfully replicated block blk_-2342342342342342342 to 3 datanodes,1
+081109 203531 156 INFO dfs.ClientProtocol: Successfully replicated block blk_-2342342342342342342 to 3 datanodes,1
+081109 203524 147 INFO dfs.DataNode$PacketResponder: Received block blk_-9073992586687739851 of size 11977 from /10.250.7.244,1
+081109 203524 147 INFO dfs.DataNode$PacketResponder: Received block blk_-9073992586687739851 of size 11977 from /10.250.7.244,1
+081109 203524 147 INFO dfs.DataNode$PacketResponder: Received block blk_-9073992586687739851 of size 11977 from /10.250.7.244,1
+081109 203532 157 INFO dfs.DataNode: Block blk_-2342342342342342342 replication completed,1
+081109 203531 156 WARNING dfs.SecurityAlert: Suspicious repeated block transfer from unknown IP /10.99.99.99:50010,-1
+081109 203524 147 INFO dfs.DataNode$PacketResponder: Received block blk_-9073992586687739851 of size 11977 from /10.250.7.244,1
+081109 203531 156 INFO dfs.ClientProtocol: Successfully replicated block blk_-2342342342342342342 to 3 datanodes,1
+081109 203526 151 CRITICAL dfs.Audit: Multiple failed login attempts detected for user root,-1
+081109 203533 158 INFO dfs.FSNamesystem: BLOCK* NameSystem.completeFile: file /user/hadoop/file1 closed successfully,1
+081109 203524 147 INFO dfs.DataNode$PacketResponder: Received block blk_-9073992586687739851 of size 11977 from /10.250.7.244,1
+081109 203532 157 INFO dfs.DataNode: Block blk_-2342342342342342342 replication completed,1
+081109 203530 155 CRITICAL dfs.FSNamesystem: BLOCK* NameSystem.allocateBlock: unexpected block allocation failure blk_-1608999687919862906,-1
+081109 203526 151 CRITICAL dfs.Audit: Multiple failed login attempts detected for user root,-1
+081109 203529 154 ERROR dfs.Security: Unauthorized user hacker attempted to access secure block blk_-1608999687919862906,-1
+081109 203524 147 INFO dfs.DataNode$PacketResponder: Received block blk_-9073992586687739851 of size 11977 from /10.250.7.244,1
+081109 203533 158 INFO dfs.FSNamesystem: BLOCK* NameSystem.completeFile: file /user/hadoop/file1 closed successfully,1
+081109 203527 152 WARNING dfs.Security: Root password changed outside maintenance window,-1
+081109 203531 156 INFO dfs.ClientProtocol: Successfully replicated block blk_-2342342342342342342 to 3 datanodes,1
+081109 203531 156 INFO dfs.ClientProtocol: Successfully replicated block blk_-2342342342342342342 to 3 datanodes,1
+081109 203530 155 INFO dfs.FSNamesystem: BLOCK* NameSystem.getAdditionalBlock: allocated new block blk_-2342342342342342342,1
+081109 203530 155 CRITICAL dfs.FSNamesystem: BLOCK* NameSystem.allocateBlock: unexpected block allocation failure blk_-1608999687919862906,-1
+081109 203533 158 INFO dfs.FSNamesystem: BLOCK* NameSystem.completeFile: file /user/hadoop/file1 closed successfully,1
+081109 203525 150 ERROR dfs.FSNamesystem: BLOCK* NameSystem.addStoredBlock: checksum mismatch detected on blk_-1608999687919862906,-1
+081109 203531 156 INFO dfs.ClientProtocol: Successfully replicated block blk_-2342342342342342342 to 3 datanodes,1
+081109 203531 156 INFO dfs.ClientProtocol: Successfully replicated block blk_-2342342342342342342 to 3 datanodes,1
+081109 203533 158 INFO dfs.FSNamesystem: BLOCK* NameSystem.completeFile: file /user/hadoop/file1 closed successfully,1
+081109 203531 156 INFO dfs.ClientProtocol: Successfully replicated block blk_-2342342342342342342 to 3 datanodes,1
+081109 203524 147 INFO dfs.DataNode$PacketResponder: Received block blk_-9073992586687739851 of size 11977 from /10.250.7.244,1
+081109 203524 147 INFO dfs.DataNode$PacketResponder: Received block blk_-9073992586687739851 of size 11977 from /10.250.7.244,1
+081109 203530 155 INFO dfs.FSNamesystem: BLOCK* NameSystem.getAdditionalBlock: allocated new block blk_-2342342342342342342,1
+081109 203533 158 INFO dfs.FSNamesystem: BLOCK* NameSystem.completeFile: file /user/hadoop/file1 closed successfully,1
+081109 203524 147 INFO dfs.DataNode$PacketResponder: Received block blk_-9073992586687739851 of size 11977 from /10.250.7.244,1
+081109 203530 155 CRITICAL dfs.FSNamesystem: BLOCK* NameSystem.allocateBlock: unexpected block allocation failure blk_-1608999687919862906,-1
+081109 203531 156 INFO dfs.ClientProtocol: Successfully replicated block blk_-2342342342342342342 to 3 datanodes,1
+081109 203531 156 INFO dfs.ClientProtocol: Successfully replicated block blk_-2342342342342342342 to 3 datanodes,1
+081109 203533 158 INFO dfs.FSNamesystem: BLOCK* NameSystem.completeFile: file /user/hadoop/file1 closed successfully,1
+081109 203531 156 INFO dfs.ClientProtocol: Successfully replicated block blk_-2342342342342342342 to 3 datanodes,1
+081109 203524 149 ERROR dfs.SecurityAlert: Unauthorized block deletion attempt detected on blk_-1608999687919862906,-1
+081109 203531 156 WARNING dfs.SecurityAlert: Suspicious repeated block transfer from unknown IP /10.99.99.99:50010,-1
+081109 203531 156 INFO dfs.ClientProtocol: Successfully replicated block blk_-2342342342342342342 to 3 datanodes,1
+081109 203528 153 ERROR dfs.DataNode$DataXceiver: Receiving block blk_-1608999687919862906 from blacklisted node /10.250.66.66:50010,-1
+081109 203533 158 INFO dfs.FSNamesystem: BLOCK* NameSystem.completeFile: file /user/hadoop/file1 closed successfully,1
+081109 203532 157 INFO dfs.DataNode: Block blk_-2342342342342342342 replication completed,1
+081109 203524 147 INFO dfs.DataNode$PacketResponder: Received block blk_-9073992586687739851 of size 11977 from /10.250.7.244,1
+081109 203530 155 INFO dfs.FSNamesystem: BLOCK* NameSystem.getAdditionalBlock: allocated new block blk_-2342342342342342342,1
+081109 203524 147 INFO dfs.DataNode$PacketResponder: Received block blk_-9073992586687739851 of size 11977 from /10.250.7.244,1
+081109 203531 156 INFO dfs.ClientProtocol: Successfully replicated block blk_-2342342342342342342 to 3 datanodes,1
+081109 203532 157 INFO dfs.DataNode: Block blk_-2342342342342342342 replication completed,1
+081109 203533 158 INFO dfs.FSNamesystem: BLOCK* NameSystem.completeFile: file /user/hadoop/file1 closed successfully,1
+081109 203531 156 INFO dfs.ClientProtocol: Successfully replicated block blk_-2342342342342342342 to 3 datanodes,1
+081109 203531 156 WARNING dfs.SecurityAlert: Suspicious repeated block transfer from unknown IP /10.99.99.99:50010,-1
+081109 203524 147 INFO dfs.DataNode$PacketResponder: Received block blk_-9073992586687739851 of size 11977 from /10.250.7.244,1
+081109 203530 155 INFO dfs.FSNamesystem: BLOCK* NameSystem.getAdditionalBlock: allocated new block blk_-2342342342342342342,1
+081109 203531 156 WARNING dfs.SecurityAlert: Suspicious repeated block transfer from unknown IP /10.99.99.99:50010,-1
+081109 203532 157 INFO dfs.DataNode: Block blk_-2342342342342342342 replication completed,1
+081109 203532 157 INFO dfs.DataNode: Block blk_-2342342342342342342 replication completed,1
+081109 203531 156 INFO dfs.ClientProtocol: Successfully replicated block blk_-2342342342342342342 to 3 datanodes,1
+081109 203529 154 ERROR dfs.Security: Unauthorized user hacker attempted to access secure block blk_-1608999687919862906,-1
+081109 203527 152 WARNING dfs.Security: Root password changed outside maintenance window,-1
+081109 203530 155 INFO dfs.FSNamesystem: BLOCK* NameSystem.getAdditionalBlock: allocated new block blk_-2342342342342342342,1
+081109 203530 155 CRITICAL dfs.FSNamesystem: BLOCK* NameSystem.allocateBlock: unexpected block allocation failure blk_-1608999687919862906,-1
+081109 203530 155 INFO dfs.FSNamesystem: BLOCK* NameSystem.getAdditionalBlock: allocated new block blk_-2342342342342342342,1
+081109 203533 158 INFO dfs.FSNamesystem: BLOCK* NameSystem.completeFile: file /user/hadoop/file1 closed successfully,1
+081109 203531 156 INFO dfs.ClientProtocol: Successfully replicated block blk_-2342342342342342342 to 3 datanodes,1
+081109 203530 155 INFO dfs.FSNamesystem: BLOCK* NameSystem.getAdditionalBlock: allocated new block blk_-2342342342342342342,1
+081109 203524 149 ERROR dfs.SecurityAlert: Unauthorized block deletion attempt detected on blk_-1608999687919862906,-1
+081109 203527 152 WARNING dfs.Security: Root password changed outside maintenance window,-1
+081109 203530 155 INFO dfs.FSNamesystem: BLOCK* NameSystem.getAdditionalBlock: allocated new block blk_-2342342342342342342,1
+081109 203533 158 INFO dfs.FSNamesystem: BLOCK* NameSystem.completeFile: file /user/hadoop/file1 closed successfully,1
+081109 203527 152 WARNING dfs.Security: Root password changed outside maintenance window,-1
+081109 203528 153 ERROR dfs.DataNode$DataXceiver: Receiving block blk_-1608999687919862906 from blacklisted node /10.250.66.66:50010,-1
+081109 203524 147 INFO dfs.DataNode$PacketResponder: Received block blk_-9073992586687739851 of size 11977 from /10.250.7.244,1
+081109 203531 156 INFO dfs.ClientProtocol: Successfully replicated block blk_-2342342342342342342 to 3 datanodes,1
+081109 203526 151 CRITICAL dfs.Audit: Multiple failed login attempts detected for user root,-1
+081109 203532 157 INFO dfs.DataNode: Block blk_-2342342342342342342 replication completed,1
+081109 203524 147 INFO dfs.DataNode$PacketResponder: Received block blk_-9073992586687739851 of size 11977 from /10.250.7.244,1
+081109 203532 157 INFO dfs.DataNode: Block blk_-2342342342342342342 replication completed,1
+250716 210517 321 INFO dfs.DataNode$PacketResponder: Received block blk_8725569763913717252 of size 14463 from /83.4.1.3,1
+250716 210517 447 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Scheduling block report for blk_-7092339771552914992,1
+250716 210517 207 ERROR dfs.SecurityAlert: Unauthorized block deletion attempt detected on blk_5136479608909713933,-1
+250716 210517 250 INFO dfs.DataNode$PacketResponder: Received block blk_4457050957058084958 of size 52869 from /10.219.236.192,1
+250716 210517 527 WARNING dfs.SecurityAlert: Suspicious repeated block transfer from unknown IP /141.192.143.145:50010,-1
+250716 210517 583 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder for blk_8621314026231857238 terminating,1
+250716 210517 565 INFO dfs.FSNamesystem: BLOCK* NameSystem.addStoredBlock: blockMap updated for blk_7015607308612190120,1
+250716 210517 843 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder for blk_-5708748725510283246 terminating,1
+250716 210517 798 INFO dfs.FSNamesystem: BLOCK* NameSystem.addStoredBlock: blockMap updated for blk_-5324197359600121285,1
+250716 210517 727 CRITICAL dfs.Audit: Multiple failed login attempts detected for user root,-1
+250716 210517 488 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /user/hadoop/file14,1
+250716 210517 994 INFO dfs.DataNode$PacketResponder: Received block blk_5204332448190033735 of size 7323 from /34.206.165.159,1
+250716 210517 400 ERROR dfs.Security: Unauthorized user hacker attempted to access secure block blk_6975963520614440768,-1
+250716 210517 243 INFO dfs.FSNamesystem: BLOCK* NameSystem.addStoredBlock: blockMap updated for blk_-8774374951093481440,1
+250716 210517 701 ERROR dfs.Security: Unauthorized user hacker attempted to access secure block blk_-5161388702784344211,-1
+250716 210517 659 INFO dfs.FSNamesystem: BLOCK* NameSystem.addStoredBlock: blockMap updated for blk_1476281216235998978,1
+250716 210517 772 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder for blk_5735059118470060727 terminating,1
+250716 210517 392 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder for blk_-8430580113601387882 terminating,1
+250716 210517 955 WARNING dfs.SecurityAlert: Suspicious repeated block transfer from unknown IP /250.93.139.27:50010,-1
+250716 210517 359 ERROR dfs.SecurityAlert: Unauthorized block deletion attempt detected on blk_133683260729126281,-1
+250716 210517 391 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /user/hadoop/file70,1
+250716 210517 610 INFO dfs.DataNode$PacketResponder: Received block blk_-5723368022565683918 of size 75055 from /156.242.246.133,1
+250716 210517 399 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder for blk_7711614877188888846 terminating,1
+250716 210517 221 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Scheduling block report for blk_8057159290439527767,1
+250716 210517 448 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder for blk_6573661135002069031 terminating,1
+250716 210517 438 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder for blk_-7710913400596306430 terminating,1
+250716 210517 918 ERROR dfs.FSNamesystem: BLOCK* NameSystem.addStoredBlock: checksum mismatch detected on blk_-1080397525082084903,-1
+250716 210517 700 CRITICAL dfs.Audit: Multiple failed login attempts detected for user root,-1
+250716 210517 644 INFO dfs.DataNode$PacketResponder: Received block blk_9110433055105054087 of size 81722 from /207.240.155.54,1
+250716 210517 636 WARNING dfs.Security: Root password changed outside maintenance window,-1
+250716 210517 588 WARNING dfs.SecurityAlert: Suspicious repeated block transfer from unknown IP /145.17.137.200:50010,-1
+250716 210517 851 INFO dfs.DataNode$PacketResponder: Received block blk_-704398146363313900 of size 43511 from /20.224.137.18,1
+250716 210517 990 CRITICAL dfs.FSNamesystem: BLOCK* NameSystem.allocateBlock: unexpected block allocation failure blk_1497575704415624289,-1
+250716 210517 462 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder for blk_7757566314765292721 terminating,1
+250716 210517 676 INFO dfs.DataNode$PacketResponder: Received block blk_2304023596816994228 of size 18574 from /110.88.12.142,1
+250716 210517 923 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Scheduling block report for blk_2486243643705414717,1
+250716 210517 394 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Scheduling block report for blk_-2686646966539403179,1
+250716 210517 579 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Scheduling block report for blk_-7022780455627452139,1
+250716 210517 414 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /user/hadoop/file57,1
+250716 210517 509 INFO dfs.DataNode$PacketResponder: Received block blk_6517619062661953578 of size 39670 from /55.50.117.49,1
+250716 210517 863 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder for blk_-5096918100595764016 terminating,1
+250716 210517 229 INFO dfs.DataNode$PacketResponder: Received block blk_2528524284376787481 of size 88013 from /219.150.97.197,1
+250716 210517 190 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder for blk_427848221258879823 terminating,1
+250716 210517 436 ERROR dfs.SecurityAlert: Unauthorized block deletion attempt detected on blk_-7958865719456145111,-1
+250716 210517 185 ERROR dfs.SecurityAlert: Unauthorized block deletion attempt detected on blk_570931429759086720,-1
+250716 210517 141 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /user/hadoop/file26,1
+250716 210517 650 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /user/hadoop/file26,1
+250716 210517 302 INFO dfs.DataNode$PacketResponder: Received block blk_6216225769032890529 of size 60548 from /217.129.44.79,1
+250716 210517 342 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder for blk_-3866299104533775630 terminating,1
+250716 210517 618 ERROR dfs.DataNode$DataXceiver: Receiving block blk_6332472753443346089 from blacklisted node /231.169.44.2:50010,-1
+250716 213425 314 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /user/hadoop/file20,1
+250716 213425 631 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder for blk_7320445675369554693 terminating,1
+250716 213425 493 ERROR dfs.SecurityAlert: Unauthorized block deletion attempt detected on blk_3802924198693578045,-1
+250716 213425 330 ERROR dfs.FSNamesystem: BLOCK* NameSystem.addStoredBlock: checksum mismatch detected on blk_3367921955688698177,-1
+250716 213425 608 INFO dfs.DataNode$PacketResponder: Received block blk_-5995890110350632312 of size 59976 from /163.245.27.207,1
+250716 213425 674 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /user/hadoop/file36,1
+250716 213425 605 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder for blk_8579640830286312385 terminating,1
+250716 213425 617 WARNING dfs.SecurityAlert: Suspicious repeated block transfer from unknown IP /245.115.53.186:50010,-1
+250716 213425 174 ERROR dfs.SecurityAlert: Unauthorized block deletion attempt detected on blk_7280899110174335269,-1
+250716 213425 883 INFO dfs.DataNode$PacketResponder: Received block blk_7318111916262401450 of size 37906 from /108.123.57.191,1
+250716 213425 503 INFO dfs.DataNode$PacketResponder: Received block blk_-1508357126496048948 of size 14955 from /41.30.22.174,1
+250716 213425 929 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Scheduling block report for blk_-496161669624903474,1
+250716 213425 999 WARNING dfs.SecurityAlert: Suspicious repeated block transfer from unknown IP /225.163.211.193:50010,-1
+250716 213425 275 ERROR dfs.FSNamesystem: BLOCK* NameSystem.addStoredBlock: checksum mismatch detected on blk_4981503525233543940,-1
+250716 213425 722 INFO dfs.DataNode$PacketResponder: Received block blk_-1222189629797384662 of size 26373 from /134.12.226.113,1
+250716 213425 710 INFO dfs.FSNamesystem: BLOCK* NameSystem.addStoredBlock: blockMap updated for blk_-9425982247792118428,1
+250716 213425 167 INFO dfs.FSNamesystem: BLOCK* NameSystem.addStoredBlock: blockMap updated for blk_7714258577884057325,1
+250716 213425 892 INFO dfs.DataNode$PacketResponder: Received block blk_2196830921234593407 of size 87855 from /94.149.76.29,1
+250716 213425 775 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Scheduling block report for blk_-5468465294863637132,1
+250716 213425 354 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Scheduling block report for blk_891583578426067304,1
+250716 213425 676 ERROR dfs.Security: Unauthorized user hacker attempted to access secure block blk_164458141573351822,-1
+250716 213425 988 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder for blk_2249926545862126012 terminating,1
+250716 213425 200 INFO dfs.FSNamesystem: BLOCK* NameSystem.addStoredBlock: blockMap updated for blk_-298024549086489558,1
+250716 213425 134 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Scheduling block report for blk_1757098556793101011,1
+250716 213425 454 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder for blk_-1948422079734607707 terminating,1
+250716 213425 560 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /user/hadoop/file60,1
+250716 213425 319 CRITICAL dfs.FSNamesystem: BLOCK* NameSystem.allocateBlock: unexpected block allocation failure blk_-2527069211060921661,-1
+250716 213425 293 CRITICAL dfs.FSNamesystem: BLOCK* NameSystem.allocateBlock: unexpected block allocation failure blk_-1259886291347960937,-1
+250716 213425 174 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder for blk_1485475744759148401 terminating,1
+250716 213425 796 ERROR dfs.FSNamesystem: BLOCK* NameSystem.addStoredBlock: checksum mismatch detected on blk_-1364664349029652749,-1
+250716 213425 749 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Scheduling block report for blk_6244735568916916007,1
+250716 213425 859 ERROR dfs.DataNode$DataXceiver: Receiving block blk_2008435269659752865 from blacklisted node /166.165.199.139:50010,-1
+250716 213425 933 INFO dfs.FSNamesystem: BLOCK* NameSystem.addStoredBlock: blockMap updated for blk_-684475867617675844,1
+250716 213425 989 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Scheduling block report for blk_-3595928431710034545,1
+250716 213425 169 ERROR dfs.FSNamesystem: BLOCK* NameSystem.addStoredBlock: checksum mismatch detected on blk_-7580387079514487985,-1
+250716 213425 830 INFO dfs.FSNamesystem: BLOCK* NameSystem.addStoredBlock: blockMap updated for blk_6685828021669936292,1
+250716 213425 585 CRITICAL dfs.FSNamesystem: BLOCK* NameSystem.allocateBlock: unexpected block allocation failure blk_457820266077835660,-1
+250716 213425 565 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /user/hadoop/file39,1
+250716 213425 460 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Scheduling block report for blk_-4509654762534337106,1
+250716 213425 303 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Scheduling block report for blk_3886386181279515523,1
+250716 213425 897 INFO dfs.DataNode$PacketResponder: Received block blk_2449828804022106807 of size 82906 from /226.157.18.172,1
+250716 213425 740 INFO dfs.FSNamesystem: BLOCK* NameSystem.addStoredBlock: blockMap updated for blk_-6029879407801039003,1
+250716 213425 122 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder for blk_4814865825750796017 terminating,1
+250716 213425 573 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Scheduling block report for blk_4439011989150735957,1
+250716 213425 370 ERROR dfs.Security: Unauthorized user hacker attempted to access secure block blk_-9659805003567278232,-1
+250716 213425 421 WARNING dfs.SecurityAlert: Suspicious repeated block transfer from unknown IP /240.92.167.214:50010,-1
+250716 213425 105 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /user/hadoop/file44,1
+250716 213425 481 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /user/hadoop/file46,1
+250716 213425 414 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /user/hadoop/file57,1
+250716 213425 738 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /user/hadoop/file37,1
+250716 223252 305 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /user/hadoop/file40,1
+250716 223252 349 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /user/hadoop/file38,1
+250716 223252 715 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Scheduling block report for blk_-8184856716163891609,1
+250716 223252 394 INFO dfs.DataNode$PacketResponder: Received block blk_757315766043532532 of size 97344 from /63.231.182.62,1
+250716 223252 960 ERROR dfs.Security: Unauthorized user hacker attempted to access secure block blk_-4208408551357203411,-1
+250716 223252 779 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder for blk_9510950110861504958 terminating,1
+250716 223252 292 CRITICAL dfs.Audit: Multiple failed login attempts detected for user root,-1
+250716 223252 559 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Scheduling block report for blk_3448570293011730767,1
+250716 223252 754 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder for blk_7650381284157236067 terminating,1
+250716 223252 907 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder for blk_-7541633338970435315 terminating,1
+250716 223252 104 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder for blk_9019102318812650014 terminating,1
+250716 223252 503 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder for blk_3743949621864588707 terminating,1
+250716 223252 840 CRITICAL dfs.FSNamesystem: BLOCK* NameSystem.allocateBlock: unexpected block allocation failure blk_1139454857625837807,-1
+250716 223252 447 WARNING dfs.SecurityAlert: Suspicious repeated block transfer from unknown IP /9.81.215.143:50010,-1
+250716 223252 444 CRITICAL dfs.Audit: Multiple failed login attempts detected for user root,-1
+250716 223252 663 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Scheduling block report for blk_-3945841838094523684,1
+250716 223252 364 ERROR dfs.DataNode$DataXceiver: Receiving block blk_4760688327458448988 from blacklisted node /12.33.209.28:50010,-1
+250716 223252 991 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /user/hadoop/file27,1
+250716 223252 303 ERROR dfs.FSNamesystem: BLOCK* NameSystem.addStoredBlock: checksum mismatch detected on blk_6388366971990263526,-1
+250716 223252 764 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder for blk_-3776372464823194358 terminating,1
+250716 223252 954 CRITICAL dfs.Audit: Multiple failed login attempts detected for user root,-1
+250716 223252 222 CRITICAL dfs.Audit: Multiple failed login attempts detected for user root,-1
+250716 223252 369 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder for blk_213504192173410242 terminating,1
+250716 223252 542 INFO dfs.DataNode$PacketResponder: Received block blk_-4001248300549902622 of size 23472 from /182.117.190.244,1
+250716 223252 268 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder for blk_-5045949461656812304 terminating,1
+250716 223252 888 INFO dfs.DataNode$PacketResponder: Received block blk_-1849865126631231226 of size 63483 from /41.253.196.174,1
+250716 223252 762 INFO dfs.DataNode$PacketResponder: Received block blk_-3779555294794083379 of size 69657 from /193.169.213.93,1
+250716 223252 670 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Scheduling block report for blk_4580755490759774803,1
+250716 223252 310 ERROR dfs.Security: Unauthorized user hacker attempted to access secure block blk_4037152624712125765,-1
+250716 223252 471 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /user/hadoop/file87,1
+250716 223252 375 INFO dfs.FSNamesystem: BLOCK* NameSystem.addStoredBlock: blockMap updated for blk_3349749258266789145,1
+250716 223252 343 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /user/hadoop/file63,1
+250716 223252 859 INFO dfs.FSNamesystem: BLOCK* NameSystem.addStoredBlock: blockMap updated for blk_-6227356617038301074,1
+250716 223252 667 WARNING dfs.SecurityAlert: Suspicious repeated block transfer from unknown IP /118.168.149.41:50010,-1
+250716 223252 978 ERROR dfs.SecurityAlert: Unauthorized block deletion attempt detected on blk_-4661358587202842502,-1
+250716 223252 325 WARNING dfs.SecurityAlert: Suspicious repeated block transfer from unknown IP /32.242.21.246:50010,-1
+250716 223252 269 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Scheduling block report for blk_5075258835702208460,1
+250716 223252 156 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Scheduling block report for blk_-7212495967488332873,1
+250716 223252 310 CRITICAL dfs.FSNamesystem: BLOCK* NameSystem.allocateBlock: unexpected block allocation failure blk_2620303517469514741,-1
+250716 223252 177 INFO dfs.FSNamesystem: BLOCK* NameSystem.addStoredBlock: blockMap updated for blk_9351357830073440120,1
+250716 223252 540 ERROR dfs.FSNamesystem: BLOCK* NameSystem.addStoredBlock: checksum mismatch detected on blk_3787777649773621786,-1
+250716 223252 992 INFO dfs.FSNamesystem: BLOCK* NameSystem.addStoredBlock: blockMap updated for blk_-5126111796708397018,1
+250716 223252 924 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /user/hadoop/file50,1
+250716 223252 516 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Scheduling block report for blk_8991299185173359995,1
+250716 223252 906 INFO dfs.DataNode$PacketResponder: Received block blk_-1863253603208118466 of size 14290 from /198.250.208.160,1
+250716 223252 994 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Scheduling block report for blk_7682233347546327055,1
+250716 223252 945 INFO dfs.DataNode$PacketResponder: Received block blk_6578750119530741966 of size 53363 from /86.36.163.60,1
+250716 223252 372 INFO dfs.FSNamesystem: BLOCK* NameSystem.addStoredBlock: blockMap updated for blk_-8581645967251513263,1
+250716 223252 582 INFO dfs.DataNode$PacketResponder: Received block blk_-2063542908545486159 of size 71841 from /109.154.23.49,1
+250716 223252 502 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder for blk_-7445103601686045308 terminating,1
+250716 223343 336 INFO dfs.DataNode$PacketResponder: Received block blk_-9059225174168586484 of size 49760 from /179.154.58.106,1
+250716 223343 628 ERROR dfs.Security: Unauthorized user hacker attempted to access secure block blk_-7691132049433894112,-1
+250716 223343 213 CRITICAL dfs.Audit: Multiple failed login attempts detected for user root,-1
+250716 223343 774 INFO dfs.DataNode$PacketResponder: Received block blk_-3263712951755912991 of size 72570 from /192.219.161.6,1
+250716 223343 536 ERROR dfs.DataNode$DataXceiver: Receiving block blk_3480795083361191798 from blacklisted node /21.108.200.237:50010,-1
+250716 223343 706 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /user/hadoop/file44,1
+250716 223343 885 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder for blk_7721439393024294228 terminating,1
+250716 223343 232 INFO dfs.FSNamesystem: BLOCK* NameSystem.addStoredBlock: blockMap updated for blk_8287352439191540140,1
+250716 223343 691 INFO dfs.DataNode$PacketResponder: Received block blk_-7764651427600813480 of size 19484 from /77.200.142.33,1
+250716 223343 713 WARNING dfs.Security: Root password changed outside maintenance window,-1
+250716 223343 499 ERROR dfs.SecurityAlert: Unauthorized block deletion attempt detected on blk_-6763772668982861567,-1
+250716 223343 869 ERROR dfs.Security: Unauthorized user hacker attempted to access secure block blk_302821950601948123,-1
+250716 223343 832 INFO dfs.DataNode$PacketResponder: Received block blk_6171731148691924451 of size 99085 from /32.105.97.251,1
+250716 223343 640 CRITICAL dfs.FSNamesystem: BLOCK* NameSystem.allocateBlock: unexpected block allocation failure blk_7881461654779293448,-1
+250716 223343 944 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder for blk_1516442387046138810 terminating,1
+250716 223343 686 INFO dfs.FSNamesystem: BLOCK* NameSystem.addStoredBlock: blockMap updated for blk_-1178845713109320844,1
+250716 223343 259 ERROR dfs.Security: Unauthorized user hacker attempted to access secure block blk_5427818008924673362,-1
+250716 223343 934 ERROR dfs.Security: Unauthorized user hacker attempted to access secure block blk_5762960008890705311,-1
+250716 223343 373 ERROR dfs.SecurityAlert: Unauthorized block deletion attempt detected on blk_8589889350322916862,-1
+250716 223343 832 ERROR dfs.SecurityAlert: Unauthorized block deletion attempt detected on blk_-5143851168955484268,-1
+250716 223343 532 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /user/hadoop/file93,1
+250716 223343 639 WARNING dfs.Security: Root password changed outside maintenance window,-1
+250716 223343 793 INFO dfs.DataNode$PacketResponder: Received block blk_3795547871112196407 of size 12835 from /33.89.38.196,1
+250716 223343 419 INFO dfs.DataNode$PacketResponder: Received block blk_-6648692175473560967 of size 64061 from /73.208.53.66,1
+250716 223343 451 INFO dfs.FSNamesystem: BLOCK* NameSystem.addStoredBlock: blockMap updated for blk_4225282747316241388,1
+250716 223343 309 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder for blk_2846959032043006426 terminating,1
+250716 223343 151 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Scheduling block report for blk_9532030424163057254,1
+250716 223343 759 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /user/hadoop/file93,1
+250716 223343 937 INFO dfs.FSNamesystem: BLOCK* NameSystem.addStoredBlock: blockMap updated for blk_-1513633309582717207,1
+250716 223343 986 INFO dfs.DataNode$PacketResponder: Received block blk_-2790800171900883753 of size 98869 from /126.85.183.151,1
+250716 223343 467 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /user/hadoop/file1,1
+250716 223343 416 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /user/hadoop/file52,1
+250716 223343 697 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder for blk_1671663337642419578 terminating,1
+250716 223343 207 INFO dfs.FSNamesystem: BLOCK* NameSystem.addStoredBlock: blockMap updated for blk_2844180050838206386,1
+250716 223343 124 INFO dfs.DataNode$PacketResponder: Received block blk_-9230804815216645764 of size 65308 from /156.226.151.56,1
+250716 223343 972 CRITICAL dfs.FSNamesystem: BLOCK* NameSystem.allocateBlock: unexpected block allocation failure blk_-2755002143437640955,-1
+250716 223343 405 INFO dfs.FSNamesystem: BLOCK* NameSystem.addStoredBlock: blockMap updated for blk_-7804017961020029650,1
+250716 223343 854 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /user/hadoop/file81,1
+250716 223343 447 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Scheduling block report for blk_-8009119052240702434,1
+250716 223343 145 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /user/hadoop/file36,1
+250716 223343 997 ERROR dfs.DataNode$DataXceiver: Receiving block blk_7461487780484655692 from blacklisted node /101.99.175.32:50010,-1
+250716 223343 560 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /user/hadoop/file3,1
+250716 223343 560 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder for blk_6134122398171094680 terminating,1
+250716 223343 802 ERROR dfs.DataNode$DataXceiver: Receiving block blk_9750818408175102416 from blacklisted node /23.223.64.154:50010,-1
+250716 223343 244 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Scheduling block report for blk_2772258216267434312,1
+250716 223343 801 INFO dfs.FSNamesystem: BLOCK* NameSystem.addStoredBlock: blockMap updated for blk_4715289019017270716,1
+250716 223343 813 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder for blk_1473688617662300 terminating,1
+250716 223343 497 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /user/hadoop/file58,1
+250716 223343 580 INFO dfs.DataNode$PacketResponder: Received block blk_-9536775723116797410 of size 60653 from /95.85.218.205,1
+250716 223343 744 INFO dfs.DataNode$PacketResponder: Received block blk_-9695544447740712033 of size 95228 from /31.88.88.115,1
+250716 233922 302 INFO dfs.FSNamesystem: BLOCK* NameSystem.addStoredBlock: blockMap updated for blk_5735097617604547529,1
+250716 233922 223 ERROR dfs.FSNamesystem: BLOCK* NameSystem.addStoredBlock: checksum mismatch detected on blk_7817125966147656773,-1
+250716 233922 435 ERROR dfs.SecurityAlert: Unauthorized block deletion attempt detected on blk_2298300731245396445,-1
+250716 233922 441 INFO dfs.DataNode$PacketResponder: Received block blk_-372796859603685498 of size 45182 from /248.202.218.218,1
+250716 233922 488 INFO dfs.DataNode$PacketResponder: Received block blk_9961164008832027625 of size 67340 from /211.192.84.133,1
+250716 233922 494 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /user/hadoop/file44,1
+250716 233922 924 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder for blk_-3075842092992691107 terminating,1
+250716 233922 803 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder for blk_5771790650111401720 terminating,1
+250716 233922 875 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Scheduling block report for blk_-4033947781171348367,1
+250716 233922 637 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /user/hadoop/file3,1
+250716 233922 704 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder for blk_4404131159443035599 terminating,1
+250716 233922 352 INFO dfs.DataNode$PacketResponder: Received block blk_-751446081218947804 of size 56306 from /107.71.51.93,1
+250716 233922 244 ERROR dfs.FSNamesystem: BLOCK* NameSystem.addStoredBlock: checksum mismatch detected on blk_2561956775899531956,-1
+250716 233922 366 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Scheduling block report for blk_7780284038840775737,1
+250716 233922 538 CRITICAL dfs.FSNamesystem: BLOCK* NameSystem.allocateBlock: unexpected block allocation failure blk_-7785443988485383717,-1
+250716 233922 108 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder for blk_-5203063332646292586 terminating,1
+250716 233922 920 INFO dfs.FSNamesystem: BLOCK* NameSystem.addStoredBlock: blockMap updated for blk_8141467910856543971,1
+250716 233922 252 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /user/hadoop/file47,1
+250716 233922 263 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Scheduling block report for blk_-1523500556999670040,1
+250716 233922 894 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Scheduling block report for blk_-7870214769771215144,1
+250716 233922 163 CRITICAL dfs.Audit: Multiple failed login attempts detected for user root,-1
+250716 233922 153 ERROR dfs.DataNode$DataXceiver: Receiving block blk_-119375959374173338 from blacklisted node /193.253.156.192:50010,-1
+250716 233922 738 INFO dfs.FSNamesystem: BLOCK* NameSystem.addStoredBlock: blockMap updated for blk_7225611198719459900,1
+250716 233922 501 ERROR dfs.Security: Unauthorized user hacker attempted to access secure block blk_1151625126873579000,-1
+250716 233922 670 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder for blk_-8864371038718913377 terminating,1
+250716 233922 464 CRITICAL dfs.Audit: Multiple failed login attempts detected for user root,-1
+250716 233922 225 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Scheduling block report for blk_-3456319267443491150,1
+250716 233922 766 ERROR dfs.FSNamesystem: BLOCK* NameSystem.addStoredBlock: checksum mismatch detected on blk_9986968019999506058,-1
+250716 233922 618 CRITICAL dfs.Audit: Multiple failed login attempts detected for user root,-1
+250716 233922 975 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /user/hadoop/file79,1
+250716 233922 765 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder for blk_3254094404826697399 terminating,1
+250716 233922 219 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Scheduling block report for blk_4261483543912334682,1
+250716 233922 337 WARNING dfs.Security: Root password changed outside maintenance window,-1
+250716 233922 777 INFO dfs.FSNamesystem: BLOCK* NameSystem.addStoredBlock: blockMap updated for blk_-5504663417270057310,1
+250716 233922 138 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder for blk_-9955828294452175673 terminating,1
+250716 233922 632 INFO dfs.DataNode$PacketResponder: Received block blk_-9937562188622058575 of size 90175 from /129.81.247.171,1
+250716 233922 635 ERROR dfs.SecurityAlert: Unauthorized block deletion attempt detected on blk_-5114798666956836316,-1
+250716 233922 379 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder for blk_-2535004652039007329 terminating,1
+250716 233922 957 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /user/hadoop/file7,1
+250716 233922 625 INFO dfs.FSNamesystem: BLOCK* NameSystem.addStoredBlock: blockMap updated for blk_-2445958951297475084,1
+250716 233922 683 INFO dfs.FSNamesystem: BLOCK* NameSystem.addStoredBlock: blockMap updated for blk_-4041395763720130562,1
+250716 233922 904 ERROR dfs.Security: Unauthorized user hacker attempted to access secure block blk_-519562544646330481,-1
+250716 233922 851 ERROR dfs.Security: Unauthorized user hacker attempted to access secure block blk_-9513303996107689844,-1
+250716 233922 755 INFO dfs.DataNode$PacketResponder: Received block blk_-6373127512749549554 of size 53804 from /239.177.200.144,1
+250716 233922 280 WARNING dfs.SecurityAlert: Suspicious repeated block transfer from unknown IP /160.54.89.229:50010,-1
+250716 233922 957 INFO dfs.FSNamesystem: BLOCK* NameSystem.addStoredBlock: blockMap updated for blk_-5280783525122933047,1
+250716 233922 750 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Scheduling block report for blk_-4224797656089735970,1
+250716 233922 914 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder for blk_-1776128427919480341 terminating,1
+250716 233922 348 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder for blk_9149712112130891999 terminating,1
+250716 233922 668 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Scheduling block report for blk_-9340033412951830937,1
+250717 093112 127 INFO dfs.DataNode$PacketResponder: Received block blk_-7215726314899357760 of size 13051 from /210.16.237.239,1
+250717 093112 599 INFO dfs.FSNamesystem: BLOCK* NameSystem.addStoredBlock: blockMap updated for blk_9500123305216757552,1
+250717 093112 105 INFO dfs.DataNode$PacketResponder: Received block blk_1380649945456358856 of size 32471 from /198.21.95.160,1
+250717 093112 392 ERROR dfs.FSNamesystem: BLOCK* NameSystem.addStoredBlock: checksum mismatch detected on blk_-3015934072039026902,-1
+250717 093112 203 ERROR dfs.DataNode$DataXceiver: Receiving block blk_-4615256097254409715 from blacklisted node /17.103.117.115:50010,-1
+250717 093112 934 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder for blk_677742933947711460 terminating,1
+250717 093112 881 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /user/hadoop/file88,1
+250717 093112 732 WARNING dfs.SecurityAlert: Suspicious repeated block transfer from unknown IP /56.171.73.129:50010,-1
+250717 093112 134 WARNING dfs.SecurityAlert: Suspicious repeated block transfer from unknown IP /47.77.4.177:50010,-1
+250717 093112 690 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /user/hadoop/file21,1
+250717 093112 709 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /user/hadoop/file66,1
+250717 093112 345 INFO dfs.DataNode$PacketResponder: Received block blk_-9895209768498531095 of size 97928 from /253.20.211.163,1
+250717 093112 413 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Scheduling block report for blk_-6775438967870405924,1
+250717 093112 863 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /user/hadoop/file25,1
+250717 093112 375 INFO dfs.DataNode$PacketResponder: Received block blk_9640522245602816956 of size 18915 from /50.22.253.226,1
+250717 093112 987 INFO dfs.FSNamesystem: BLOCK* NameSystem.addStoredBlock: blockMap updated for blk_-1203350703027180165,1
+250717 093112 195 ERROR dfs.DataNode$DataXceiver: Receiving block blk_3296627603444758705 from blacklisted node /112.102.94.230:50010,-1
+250717 093112 612 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /user/hadoop/file69,1
+250717 093112 993 INFO dfs.DataNode$PacketResponder: Received block blk_-7770672783343987053 of size 87578 from /246.81.56.160,1
+250717 093112 146 ERROR dfs.FSNamesystem: BLOCK* NameSystem.addStoredBlock: checksum mismatch detected on blk_-7158492472919832308,-1
+250717 093112 864 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder for blk_-7943668024206742895 terminating,1
+250717 093112 260 WARNING dfs.Security: Root password changed outside maintenance window,-1
+250717 093112 167 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /user/hadoop/file95,1
+250717 093112 343 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /user/hadoop/file54,1
+250717 093112 951 ERROR dfs.DataNode$DataXceiver: Receiving block blk_4226774742505962637 from blacklisted node /177.88.194.249:50010,-1
+250717 093112 529 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Scheduling block report for blk_-1031775930091541408,1
+250717 093112 937 ERROR dfs.SecurityAlert: Unauthorized block deletion attempt detected on blk_9997293296279817846,-1
+250717 093112 316 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder for blk_-5420220396687419805 terminating,1
+250717 093112 465 WARNING dfs.SecurityAlert: Suspicious repeated block transfer from unknown IP /25.203.179.13:50010,-1
+250717 093112 203 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Scheduling block report for blk_9700718237048666004,1
+250717 093112 125 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Scheduling block report for blk_8100023326585546687,1
+250717 093112 598 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /user/hadoop/file26,1
+250717 093112 598 INFO dfs.FSNamesystem: BLOCK* NameSystem.addStoredBlock: blockMap updated for blk_-3848578103210663324,1
+250717 093112 249 INFO dfs.DataNode$PacketResponder: Received block blk_1486596375578512722 of size 11565 from /129.107.20.4,1
+250717 093112 216 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /user/hadoop/file73,1
+250717 093112 548 ERROR dfs.Security: Unauthorized user hacker attempted to access secure block blk_-9467441688116180332,-1
+250717 093112 757 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder for blk_2453461366308055204 terminating,1
+250717 093112 123 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Scheduling block report for blk_8985696318115634106,1
+250717 093112 484 INFO dfs.DataNode$PacketResponder: Received block blk_-4685471025529647169 of size 3132 from /44.34.6.100,1
+250717 093112 627 CRITICAL dfs.FSNamesystem: BLOCK* NameSystem.allocateBlock: unexpected block allocation failure blk_6377597210693560212,-1
+250717 093112 541 INFO dfs.FSNamesystem: BLOCK* NameSystem.addStoredBlock: blockMap updated for blk_-6800670725683648857,1
+250717 093112 764 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Scheduling block report for blk_-8877147661013498774,1
+250717 093112 445 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder for blk_9136659879656042147 terminating,1
+250717 093112 609 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder for blk_-1288900577349116038 terminating,1
+250717 093112 225 WARNING dfs.Security: Root password changed outside maintenance window,-1
+250717 093112 226 INFO dfs.DataNode$PacketResponder: Received block blk_671764253143073961 of size 47445 from /193.224.99.187,1
+250717 093112 547 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /user/hadoop/file89,1
+250717 093112 243 INFO dfs.DataNode$PacketResponder: Received block blk_-6203622032957349295 of size 66126 from /209.51.82.208,1
+250717 093112 324 CRITICAL dfs.FSNamesystem: BLOCK* NameSystem.allocateBlock: unexpected block allocation failure blk_-7331590845901374834,-1
+250717 093112 339 WARNING dfs.Security: Root password changed outside maintenance window,-1

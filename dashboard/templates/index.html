@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>📊 Log Anamoly Dashboard</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        body {
+            font-family: monospace;
+            background: #000000;
+            color: #eee;
+            padding: 20px;
+        }
+        h1 {
+            color: #00bcd4;
+        }
+        .log {
+            padding: 5px;
+            margin: 4px 0;
+            border-radius: 4px;
+        }
+        .normal {
+            background: #30c037;
+        }
+        .anomaly {
+            background: #ff0000;
+        }
+        .alert {
+            background: orange;
+            color: black;
+            padding: 8px;
+            margin: 5px 0;
+            border-radius: 4px;
+            border: 2px solid red;
+        }
+    </style>
+</head>
+<body>
+    <h1>📊 Log Anamoly Dashboard</h1>
+    <p>✅ Normal logs: <span id="normal-count">0</span></p>
+    <p>⚠️ Anomaly logs: <span id="anomaly-count">0</span></p>
+    <canvas id="anomalyChart" width="600" height="300"></canvas>
+
+    <h2 style="color:orange">🚨 Alerts</h2>
+    <div id="alerts"></div>
+
+    <div id="log-container"></div>
+
+    <script>
+        const logContainer = document.getElementById('log-container');
+        const alertsContainer = document.getElementById('alerts');
+        const ws = new WebSocket(`ws://${location.host}/ws`);
+
+        ws.onmessage = (event) => {
+            const data = JSON.parse(event.data);
+
+            if (data.type === 'alert') {
+                // Show alert
+                const alertDiv = document.createElement('div');
+                alertDiv.className = 'alert';
+                alertDiv.innerHTML = `🚨 <strong>${data.advice}</strong><br/><em>${data.log}</em>`;
+                alertsContainer.prepend(alertDiv);
+            } else {
+                // Normal log message
+                const div = document.createElement('div');
+                div.className = 'log ' + data.label;
+                div.textContent = `[${data.label.toUpperCase()}] ${data.log}`;
+                logContainer.prepend(div);
+            }
+        };
+
+        ws.onclose = () => {
+            const div = document.createElement('div');
+            div.className = 'log anomaly';
+            div.textContent = '❌ WebSocket disconnected';
+            logContainer.prepend(div);
+        };
+
+        // Chart & stats
+        async function loadStats() {
+            const res = await fetch('/api/stats');
+            const data = await res.json();
+
+            document.getElementById('normal-count').innerText = data.normal;
+            document.getElementById('anomaly-count').innerText = data.anomaly;
+
+            const countsByTime = {};
+            data.timeline.forEach(item => {
+                const timeKey = item.time.substring(0, 16);
+                if (!countsByTime[timeKey]) countsByTime[timeKey] = 0;
+                if (item.label === 'anomaly') countsByTime[timeKey]++;
+            });
+
+            anomalyChart.data.labels = Object.keys(countsByTime);
+            anomalyChart.data.datasets[0].data = Object.values(countsByTime);
+            anomalyChart.update();
+        }
+
+        const ctx = document.getElementById('anomalyChart').getContext('2d');
+        const anomalyChart = new Chart(ctx, {
+            type: 'bar',
+            data: {
+                labels: [],
+                datasets: [{
+                    label: '# of Anomalies',
+                    data: [],
+                    backgroundColor: '#ff0000',
+                }]
+            }
+        });
+
+        loadStats();
+        setInterval(loadStats, 5000);
+    </script>
+</body>
+</html>
