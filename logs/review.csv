@@ -1,0 +1,205 @@
+timestamp,source,content,label
+2025-07-26T14:55:01.192894,journalctl,Jul 26 14:54:41 bharch unix_chkpwd[60645]: password check failed for user (rksha),1
+2025-07-26T14:55:01.263727,journalctl,Jul 26 14:54:41 bharch sudo[60631]: pam_unix(sudo:auth): authentication failure; logname=rksha uid=1000 euid=0 tty=/dev/pts/3 ruser=rksha rhost=  user=rksha,1
+2025-07-26T14:55:01.422860,pacman.log,Jul 26 14:55:01	prod1	24521	kernel: [12346.455720] Kernel panic - attempted to kill init! exitcode=0x00000009,1
+2025-07-26T14:55:01.483685,journalctl,Jul 26 14:54:45 bharch sudo[60631]:    rksha : TTY=pts/3 ; PWD=/home/rksha/Documents/Projects/log-anamoly-detector/Linux ; USER=root ; COMMAND=/usr/bin/python scripts/sim_ana.py,0
+2025-07-26T14:55:01.532965,journalctl,Jul 26 14:54:45 bharch sudo[60631]: pam_unix(sudo:session): session opened for user root(uid=0) by rksha(uid=1000),0
+2025-07-26T14:55:05.385635,pacman.log,Jul 26 14:55:05	LabSZ	18330	Did not receive identification string from 31.161.114.240,0
+2025-07-26T14:55:07.837844,pacman.log,Jul 26 14:55:07	prod1	15989	Accepted password for ubuntu from 239.75.63.246 port 23923 ssh4,0
+2025-07-26T14:55:12.127847,pacman.log,Jul 26 14:55:12	testvm	4562	kernel: [12345.851581] Kernel panic - not syncing: Fatal exception,1
+2025-07-26T14:55:14.760079,pacman.log,Jul 26 14:55:14	LabSZ	3980	Received disconnect from 74.21.102.7: 99: Bye Bye [preauth],0
+2025-07-26T14:55:17.248767,pacman.log,Jul 26 14:55:17	server	2428	PAM service(sshd) ignoring max retries; 8 > 4,0
+2025-07-26T14:55:19.818162,pacman.log,Jul 26 14:55:19	testvm	24457	Accepted password for webmaster from 221.80.132.126 port 24585 ssh5,0
+2025-07-26T14:55:23.285773,pacman.log,Jul 26 14:55:23	server	5071	Received disconnect from 91.161.168.230: 47: Closed due to user request [preauth],0
+2025-07-26T14:55:26.898673,pacman.log,Jul 26 14:55:26	prod1	2853	pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=42.121.175.197,1
+2025-07-26T14:55:30.877366,pacman.log,Jul 26 14:55:30	server	15700	Disconnecting: Too many authentication failures for fztu [preauth],1
+2025-07-26T14:55:34.728965,pacman.log,Jul 26 14:55:34	LabSZ	10567	Accepted password for fztu from 47.42.70.88 port 13437 ssh3,0
+2025-07-26T14:55:38.951478,pacman.log,Jul 26 14:55:38	LabSZ	7461	Connection closed by 162.197.230.252 [preauth],0
+2025-07-26T14:55:43.819762,pacman.log,Jul 26 14:55:43	testvm	26788	Received disconnect from 210.53.224.214: 92: disconnected by user,0
+2025-07-26T14:55:46.518878,pacman.log,Jul 26 14:55:46	prod1	2775	message repeated 5 times: [ Failed password for root from 19.100.199.164 port 19516 ssh4],1
+2025-07-26T14:55:48.176156,journalctl,Jul 26 14:55:47 bharch sudo[60631]: pam_unix(sudo:session): session closed for user root,0
+2025-07-26T16:40:24.441988,journalctl,Jul 26 16:38:12 bharch NetworkManager[2494]: <info>  [1753528092.2789] manager: NetworkManager state is now CONNECTED_SITE,0
+2025-07-26T16:40:24.497605,journalctl,"Jul 26 16:38:12 bharch NetworkManager[2494]: <info>  [1753528092.2798] device (wlp0s20f3): Activation: successful, device activated.",0
+2025-07-26T16:40:24.544745,journalctl,Jul 26 16:38:12 bharch NetworkManager[2494]: <info>  [1753528092.8277] manager: NetworkManager state is now CONNECTED_GLOBAL,0
+2025-07-26T16:40:24.599559,journalctl,Jul 26 16:38:13 bharch NetworkManager[2494]: <info>  [1753528093.5338] policy: set 'NFSU' (wlp0s20f3) as default for IPv6 routing and DNS,0
+2025-07-26T16:40:24.642989,journalctl,Jul 26 16:38:13 bharch wpa_supplicant[2520]: wlp0s20f3: CTRL-EVENT-SIGNAL-CHANGE above=1 signal=-49 noise=9999 txrate=26000,0
+2025-07-26T16:40:24.719717,journalctl,Jul 26 16:38:22 bharch systemd[1]: NetworkManager-dispatcher.service: Deactivated successfully.,0
+2025-07-26T16:40:24.783096,journalctl,Jul 26 16:40:21 bharch sudo[125458]:    rksha : TTY=pts/3 ; PWD=/home/rksha/Documents/Projects/log-anamoly-detector/Linux ; USER=root ; COMMAND=/usr/bin/python scripts/sim_ana.py,0
+2025-07-26T16:40:24.826103,journalctl,Jul 26 16:40:21 bharch sudo[125458]: pam_unix(sudo:session): session opened for user root(uid=0) by rksha(uid=1000),0
+2025-07-26T16:40:25.177296,pacman.log,Jul 26 16:40:25	prod1	5491	Received disconnect from 61.196.42.194: 78: Bye Bye [preauth],0
+2025-07-26T16:40:28.604190,pacman.log,Jul 26 16:40:28	server	29237	kernel: myapp[772602]: segfault at 7f0a00000000 ip 00007f0a4e4c0000 sp 00007ffde1e07000 error 9 in libpthread-3.94.so[7f0a4e480000+19000],1
+2025-07-26T16:40:32.053547,pacman.log,Jul 26 16:40:31	testvm	16041	Received disconnect from 104.193.241.247: 19: disconnected by user,0
+2025-07-26T16:40:34.986756,pacman.log,Jul 26 16:40:34	server	11624	Connection closed by 97.139.23.84 [preauth],0
+2025-07-26T16:40:38.171527,journalctl,Jul 26 16:40:37 bharch wpa_supplicant[2520]: wlp0s20f3: CTRL-EVENT-SIGNAL-CHANGE above=1 signal=-36 noise=9999 txrate=26000,0
+2025-07-26T16:40:39.083418,pacman.log,Jul 26 16:40:39	server	18376	Received disconnect from 148.169.91.195: 98: Closed due to user request [preauth],0
+2025-07-26T16:40:42.935098,pacman.log,Jul 26 16:40:42	LabSZ	21717	Received disconnect from 225.125.32.60: 15: Closed due to user request [preauth],0
+2025-07-26T16:40:46.408900,pacman.log,Jul 26 16:40:46	LabSZ	13476	sudo: user1: command not allowed ; TTY=pts/1 ; PWD=/home/user6 ; USER=root ; COMMAND=/bin/cat /etc/shadow,1
+2025-07-26T16:40:50.903627,pacman.log,Jul 26 16:40:50	LabSZ	1184	pam_unix(sshd:session): session opened for user backup by (uid=3),0
+2025-07-26T16:40:55.563274,pacman.log,Jul 26 16:40:55	testvm	15598	Received disconnect from 49.125.234.11: 95: Closed due to user request [preauth],0
+2025-07-26T16:40:58.882972,pacman.log,Jul 26 16:40:58	testvm	3180	sudo: pam_unix(sudo:auth): authentication failure; logname=admin4 uid=288173 euid=6 tty=/dev/pts/2 ruser=user1 rhost=  user=root,1
+2025-07-26T16:41:03.549562,pacman.log,Jul 26 16:41:03	server	19476	pam_unix(sshd:session): session closed for user oracle,0
+2025-07-26T16:41:08.118482,pacman.log,Jul 26 16:41:08	server	3051	PAM 9 more authentication failures; logname= uid=2 euid=6 tty=ssh ruser= rhost=33.67.255.216  user=guest,1
+2025-07-26T16:41:12.770086,pacman.log,Jul 26 16:41:12	server	10131	Connection closed by 25.147.24.60 [preauth],0
+2025-07-26T16:41:16.385776,pacman.log,Jul 26 16:41:16	server	15726	Received disconnect from 181.223.36.191: 59: disconnected by user,0
+2025-07-26T16:41:21.144934,pacman.log,Jul 26 16:41:21	LabSZ	29717	Did not receive identification string from 111.199.41.127,0
+2025-07-26T16:41:24.684580,pacman.log,Jul 26 16:41:24	LabSZ	20332	Received disconnect from 208.226.246.205: 26: Bye Bye [preauth],0
+2025-07-26T16:41:27.446270,pacman.log,Jul 26 16:41:27	server	10013	reverse mapping checking getaddrinfo for ns.randomdomain.com [91.225.243.118] failed - POSSIBLE BREAK-IN ATTEMPT!,1
+2025-07-26T16:41:30.655462,pacman.log,Jul 26 16:41:30	prod1	17395	Received disconnect from 162.15.210.25: 27: Closed due to user request [preauth],0
+2025-07-26T16:41:33.774576,pacman.log,Jul 26 16:41:33	testvm	26597	error: Received disconnect from 201.101.63.44: 50600: com.jcraft.jsch.JSchException: Auth fail [preauth],1
+2025-07-26T16:41:37.344416,pacman.log,Jul 26 16:41:37	LabSZ	10353	pam_unix(sshd:auth): check pass; user unknown,1
+2025-07-26T16:41:39.813825,pacman.log,Jul 26 16:41:39	prod1	3246	sudo: fztu : 3 incorrect password attempts ; TTY=pts/2 ; PWD=/home/user2 ; USER=root ; COMMAND=/usr/bin/vim /etc/sudoers,1
+2025-07-26T16:41:44.232244,pacman.log,Jul 26 16:41:44	server	12863	Received disconnect from 5.15.237.46: 38: Closed due to user request [preauth],0
+2025-07-26T16:41:49.001734,pacman.log,Jul 26 16:41:48	server	22789	pam_unix(sshd:auth): check pass; user unknown,1
+2025-07-26T16:41:51.992879,pacman.log,Jul 26 16:41:51	server	22941	Received disconnect from 68.51.190.46: 15: Closed due to user request [preauth],0
+2025-07-26T16:41:56.506913,pacman.log,Jul 26 16:41:56	prod1	25612	PAM service(sshd) ignoring max retries; 7 > 3,0
+2025-07-26T16:41:58.724645,pacman.log,Jul 26 16:41:58	server	5626	Connection closed by 184.12.122.223 [preauth],0
+2025-07-26T16:42:03.103526,pacman.log,Jul 26 16:42:03	prod1	18822	pam_unix(sshd:session): session opened for user chen by (uid=1),0
+2025-07-26T16:42:07.460338,pacman.log,Jul 26 16:42:07	testvm	2483	Received disconnect from 64.43.147.131: 17: disconnected by user,0
+2025-07-26T16:42:10.583580,pacman.log,Jul 26 16:42:10	testvm	4301	Received disconnect from 110.53.45.180: 94: Closed due to user request [preauth],0
+2025-07-26T16:42:15.330242,pacman.log,Jul 26 16:42:15	testvm	13303	pam_unix(sshd:session): session closed for user chen,0
+2025-07-26T16:42:19.471072,pacman.log,Jul 26 16:42:19	testvm	17517	Disconnecting: Too many authentication failures for guest [preauth],1
+2025-07-26T16:42:23.092814,pacman.log,Jul 26 16:42:23	server	20473	Received disconnect from 207.134.53.211: 19: disconnected by user,0
+2025-07-26T16:42:27.725892,pacman.log,Jul 26 16:42:27	prod1	9102	PAM service(sshd) ignoring max retries; 9 > 4,0
+2025-07-26T16:42:31.406002,pacman.log,Jul 26 16:42:31	prod1	26504	Accepted password for webmaster from 232.203.185.217 port 5654 ssh5,0
+2025-07-26T16:42:33.630842,pacman.log,Jul 26 16:42:33	prod1	26553	input_userauth_request: invalid user admin [preauth],1
+2025-07-26T16:42:38.382765,pacman.log,Jul 26 16:42:38	server	24001	pam_unix(sshd:auth): check pass; user unknown,1
+2025-07-26T16:42:41.235017,pacman.log,Jul 26 16:42:41	prod1	7398	Connection closed by 161.224.227.68 [preauth],0
+2025-07-26T16:42:46.155405,pacman.log,Jul 26 16:42:46	testvm	18772	Failed none for invalid user 1 from 78.2.121.67 port 51371 ssh9,1
+2025-07-26T16:42:49.025835,pacman.log,Jul 26 16:42:48	LabSZ	3174	Received disconnect from 16.81.75.196: 17: disconnected by user,0
+2025-07-26T16:42:51.941536,pacman.log,Jul 26 16:42:51	server	2844	Did not receive identification string from 52.95.119.156,0
+2025-07-26T16:42:53.954313,pacman.log,Jul 26 16:42:53	testvm	28334	Received disconnect from 62.131.156.234: 41: disconnected by user,0
+2025-07-26T16:42:58.429670,pacman.log,Jul 26 16:42:58	LabSZ	4443	Received disconnect from 214.140.80.65: 34: Bye Bye [preauth],0
+2025-07-26T16:43:01.166665,pacman.log,Jul 26 16:43:01	testvm	26882	pam_unix(sshd:session): session opened for user pgadmin by (uid=2),0
+2025-07-26T16:43:05.725778,pacman.log,Jul 26 16:43:05	testvm	19130	Did not receive identification string from 8.153.184.57,0
+2025-07-26T16:43:10.564220,pacman.log,Jul 26 16:43:10	LabSZ	11717	pam_unix(sshd:auth): check pass; user unknown,1
+2025-07-26T16:43:12.917729,pacman.log,Jul 26 16:43:12	testvm	28019	PAM service(sshd) ignoring max retries; 6 > 4,0
+2025-07-26T16:43:15.328599,pacman.log,Jul 26 16:43:15	testvm	14191	pam_unix(sshd:session): session opened for user chen by (uid=4),0
+2025-07-26T16:43:18.086150,pacman.log,Jul 26 16:43:18	prod1	28533	pam_unix(sshd:auth): authentication failure; logname= uid=6 euid=4 tty=ssh ruser= rhost=214.31.251.174,1
+2025-07-26T16:43:22.691514,pacman.log,Jul 26 16:43:22	LabSZ	13348	pam_unix(sshd:session): session closed for user 123,0
+2025-07-26T16:43:26.775215,pacman.log,Jul 26 16:43:26	prod1	10082	Failed password for invalid user webmaster from 48.3.213.102 port 15550 ssh8,1
+2025-07-26T16:43:29.358642,pacman.log,Jul 26 16:43:29	testvm	12720	pam_unix(sshd:session): session opened for user oracle by (uid=2),0
+2025-07-26T16:43:33.005605,pacman.log,Jul 26 16:43:32	prod1	17163	kernel: [12346.174086] Kernel panic - attempted to kill init! exitcode=0x00000009,1
+2025-07-26T16:43:37.332274,pacman.log,Jul 26 16:43:37	prod1	16800	Accepted password for guest from 223.175.236.189 port 18600 ssh5,0
+2025-07-26T16:43:40.486940,pacman.log,Jul 26 16:43:40	server	11325	Did not receive identification string from 191.91.187.103,0
+2025-07-26T16:43:44.719705,pacman.log,Jul 26 16:43:44	LabSZ	8080	pam_unix(sshd:session): session closed for user fztu,0
+2025-07-26T16:43:47.596805,pacman.log,Jul 26 16:43:47	server	4820	pam_unix(sshd:auth): check pass; user unknown,1
+2025-07-26T16:43:52.366514,pacman.log,Jul 26 16:43:52	server	22157	Accepted password for ubuntu from 32.146.134.2 port 37731 ssh3,0
+2025-07-26T16:43:54.855092,pacman.log,Jul 26 16:43:54	server	19027	pam_unix(sshd:auth): check pass; user unknown,1
+2025-07-26T16:43:57.627293,pacman.log,Jul 26 16:43:57	prod1	25592	Connection closed by 140.63.219.150 [preauth],0
+2025-07-26T16:44:01.344774,pacman.log,Jul 26 16:44:01	LabSZ	23917	Received disconnect from 32.212.142.216: 61: Bye Bye [preauth],0
+2025-07-26T16:44:03.788426,pacman.log,Jul 26 16:44:03	LabSZ	23623	Received disconnect from 236.149.20.67: 40: Bye Bye [preauth],0
+2025-07-26T16:44:07.387780,pacman.log,Jul 26 16:44:07	LabSZ	14360	Did not receive identification string from 182.249.7.169,0
+2025-07-26T16:44:11.228209,pacman.log,Jul 26 16:44:11	LabSZ	5408	PAM service(sshd) ignoring max retries; 7 > 2,0
+2025-07-26T16:44:13.560519,pacman.log,"Jul 26 16:44:13	testvm	5976	systemd[1]: myapp.service: Main process exited, code=killed, status=37/SEGV",0
+2025-07-26T16:44:18.270439,pacman.log,Jul 26 16:44:18	testvm	27079	Received disconnect from 49.17.119.197: 71: Bye Bye [preauth],0
+2025-07-26T16:44:20.337609,pacman.log,Jul 26 16:44:20	testvm	28172	Received disconnect from 219.230.196.33: 17: Bye Bye [preauth],0
+2025-07-26T16:44:23.395221,pacman.log,Jul 26 16:44:23	LabSZ	6893	fatal: Read from socket failed: Connection reset by peer,1
+2025-07-26T16:44:26.320797,pacman.log,Jul 26 16:44:26	testvm	12187	pam_unix(sshd:auth): check pass; user unknown,1
+2025-07-26T16:44:29.694391,pacman.log,Jul 26 16:44:29	LabSZ	10639	Received disconnect from 209.235.204.245: 45: disconnected by user,0
+2025-07-26T16:44:34.087640,pacman.log,Jul 26 16:44:34	prod1	4352	pam_unix(sshd:session): session opened for user 123 by (uid=2),0
+2025-07-26T16:44:38.757273,pacman.log,Jul 26 16:44:38	server	24501	sudo: user1: command not allowed ; TTY=pts/1 ; PWD=/home/user8 ; USER=root ; COMMAND=/bin/cat /etc/shadow,1
+2025-07-26T16:44:41.820129,pacman.log,Jul 26 16:44:41	server	10372	PAM service(sshd) ignoring max retries; 5 > 2,0
+2025-07-26T16:44:45.964990,pacman.log,Jul 26 16:44:45	testvm	19744	pam_unix(sshd:auth): check pass; user unknown,1
+2025-07-26T16:44:49.797083,pacman.log,Jul 26 16:44:49	prod1	29386	Received disconnect from 161.122.59.28: 80: Closed due to user request [preauth],0
+2025-07-26T16:44:52.849045,pacman.log,Jul 26 16:44:52	testvm	13669	Received disconnect from 114.169.128.70: 92: Closed due to user request [preauth],0
+2025-07-26T16:44:57.833485,pacman.log,Jul 26 16:44:57	testvm	26036	Connection closed by 213.151.90.91 [preauth],0
+2025-07-26T16:45:02.275285,pacman.log,Jul 26 16:45:02	prod1	4119	error: maximum authentication attempts exceeded for matlab from 20.14.211.221 port 51964,1
+2025-07-26T16:45:05.590451,pacman.log,Jul 26 16:45:05	prod1	13309	sudo: user2: command not allowed ; TTY=pts/1 ; PWD=/home/user4 ; USER=root ; COMMAND=/bin/cat /etc/shadow,1
+2025-07-26T16:45:09.642484,pacman.log,Jul 26 16:45:09	server	18813	pam_unix(sshd:session): session closed for user 123,0
+2025-07-26T16:45:14.391116,pacman.log,Jul 26 16:45:14	LabSZ	19693	PAM service(sshd) ignoring max retries; 6 > 3,0
+2025-07-26T16:45:19.180176,journalctl,Jul 26 16:45:18 bharch wpa_supplicant[2520]: wlp0s20f3: CTRL-EVENT-SIGNAL-CHANGE above=1 signal=-41 noise=9999 txrate=72200,0
+2025-07-26T16:45:19.277634,pacman.log,Jul 26 16:45:19	prod1	10277	Accepted password for matlab from 160.1.220.196 port 42015 ssh9,0
+2025-07-26T16:45:21.730893,pacman.log,Jul 26 16:45:21	prod1	21964	pam_unix(sshd:auth): check pass; user unknown,1
+2025-07-26T16:45:23.862625,pacman.log,Jul 26 16:45:23	prod1	8586	Received disconnect from 113.58.175.249: 65: Bye Bye [preauth],0
+2025-07-26T16:45:27.116735,pacman.log,Jul 26 16:45:27	prod1	8418	Accepted password for chen from 155.92.128.10 port 27625 ssh9,0
+2025-07-26T16:45:31.743093,pacman.log,Jul 26 16:45:31	LabSZ	1761	Failed none for invalid user 2 from 103.69.213.187 port 35603 ssh4,1
+2025-07-26T16:45:36.322339,pacman.log,Jul 26 16:45:36	testvm	9101	PAM service(sshd) ignoring max retries; 5 > 4,0
+2025-07-26T16:45:41.176632,journalctl,Jul 26 16:45:40 bharch sudo[125458]: pam_unix(sudo:session): session closed for user root,0
+2025-07-26T17:56:14.112268,journalctl,"Jul 26 17:54:48 bharch gnome-keyring-daemon[16691]: asked to register item /org/freedesktop/secrets/collection/login/1, but it's already registered",0
+2025-07-26T17:56:14.161942,journalctl,"Jul 26 17:54:48 bharch gnome-keyring-d[16691]: asked to register item /org/freedesktop/secrets/collection/login/1, but it's already registered",0
+2025-07-26T17:56:14.202970,journalctl,Jul 26 17:55:01 bharch systemd[1]: systemd-hostnamed.service: Deactivated successfully.,0
+2025-07-26T17:56:14.245534,journalctl,Jul 26 17:55:30 bharch systemd[16674]: Started kitty child process: 35748 launched by: 35741.,0
+2025-07-26T17:57:57.857677,journalctl,Jul 26 17:57:57 bharch systemd[1]: Starting Cleanup of Temporary Directories...,0
+2025-07-26T17:57:57.911141,journalctl,Jul 26 17:57:57 bharch systemd[1]: systemd-tmpfiles-clean.service: Deactivated successfully.,0
+2025-07-26T17:57:57.966237,journalctl,Jul 26 17:57:57 bharch systemd[1]: Finished Cleanup of Temporary Directories.,0
+2025-07-26T18:04:20.616043,pacman.log,Jul 26 18:04:20	prod1	18331	Failed none for invalid user 3 from 24.223.158.22 port 62021 ssh7,1
+2025-07-26T18:04:20.869924,journalctl,Jul 26 18:04:20 bharch sudo[38784]:    rksha : TTY=pts/2 ; PWD=/home/rksha/Documents/Projects/log-anamoly-detector/Linux ; USER=root ; COMMAND=/usr/bin/python scripts/sim_ana.py,0
+2025-07-26T18:04:20.924426,journalctl,Jul 26 18:04:20 bharch sudo[38784]: pam_unix(sudo:session): session opened for user root(uid=0) by rksha(uid=1000),0
+2025-07-26T18:04:23.863986,pacman.log,Jul 26 18:04:23	LabSZ	2138	Received disconnect from 39.25.186.40: 38: Closed due to user request [preauth],0
+2025-07-26T18:04:28.186747,pacman.log,Jul 26 18:04:28	server	5803	PAM service(sshd) ignoring max retries; 8 > 1,0
+2025-07-26T18:04:31.010571,pacman.log,Jul 26 18:04:30	testvm	28760	pam_unix(sshd:session): session opened for user test by (uid=2),0
+2025-07-26T18:04:33.510673,pacman.log,Jul 26 18:04:33	prod1	7984	PAM service(sshd) ignoring max retries; 6 > 3,0
+2025-07-26T18:04:38.279570,pacman.log,Jul 26 18:04:38	server	12812	Received disconnect from 249.110.224.92: 63: Closed due to user request [preauth],0
+2025-07-26T18:04:41.842611,pacman.log,Jul 26 18:04:41	testvm	28076	kernel: [12345.689403] Kernel panic - not syncing: Fatal exception,1
+2025-07-26T18:04:44.286642,pacman.log,Jul 26 18:04:44	LabSZ	26652	pam_unix(sshd:session): session closed for user matlab,0
+2025-07-26T18:04:47.012381,pacman.log,Jul 26 18:04:46	prod1	21889	pam_unix(sshd:session): session closed for user chen,0
+2025-07-26T18:04:50.941361,pacman.log,Jul 26 18:04:50	server	1669	Received disconnect from 9.72.110.45: 25: Closed due to user request [preauth],0
+2025-07-26T18:04:53.771103,pacman.log,Jul 26 18:04:53	testvm	13947	pam_unix(sshd:session): session opened for user test by (uid=1),0
+2025-07-26T18:04:56.424247,pacman.log,Jul 26 18:04:56	testvm	12296	pam_unix(sshd:session): session opened for user test by (uid=3),0
+2025-07-26T18:04:59.495310,pacman.log,Jul 26 18:04:59	testvm	11572	Failed password for invalid user pgadmin from 196.125.148.105 port 56931 ssh2,1
+2025-07-26T18:05:04.036629,pacman.log,Jul 26 18:05:03	prod1	19047	Accepted password for matlab from 199.168.238.71 port 60386 ssh2,0
+2025-07-26T18:05:06.801527,pacman.log,Jul 26 18:05:06	prod1	12536	Did not receive identification string from 135.35.74.200,0
+2025-07-26T18:05:11.262543,pacman.log,Jul 26 18:05:11	testvm	12352	pam_unix(sshd:session): session closed for user fztu,0
+2025-07-26T18:05:15.879614,pacman.log,Jul 26 18:05:15	testvm	12474	Received disconnect from 117.235.225.244: 51: disconnected by user,0
+2025-07-26T18:05:18.052076,pacman.log,Jul 26 18:05:17	testvm	18129	Received disconnect from 16.58.205.202: 38: Closed due to user request [preauth],0
+2025-07-26T18:05:21.769106,pacman.log,Jul 26 18:05:21	server	21377	Connection closed by 139.231.102.179 [preauth],0
+2025-07-26T18:05:25.576622,pacman.log,Jul 26 18:05:25	server	12256	pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=88.2.78.69,1
+2025-07-26T18:05:29.614438,pacman.log,Jul 26 18:05:29	testvm	20856	Received disconnect from 55.170.142.206: 96: Closed due to user request [preauth],0
+2025-07-26T18:05:32.474159,pacman.log,Jul 26 18:05:32	LabSZ	6991	Accepted password for test from 187.29.38.78 port 2721 ssh4,0
+2025-07-26T18:05:35.752216,pacman.log,Jul 26 18:05:35	prod1	1273	Did not receive identification string from 197.16.130.126,0
+2025-07-26T18:05:39.722049,pacman.log,Jul 26 18:05:39	prod1	26501	Accepted password for root from 78.186.5.243 port 8456 ssh6,0
+2025-07-26T18:05:42.014492,pacman.log,Jul 26 18:05:41	server	6077	message repeated 4 times: [ Failed password for root from 171.188.136.68 port 47293 ssh8],1
+2025-07-26T18:05:44.633430,pacman.log,Jul 26 18:05:44	server	11795	input_userauth_request: invalid user chen [preauth],1
+2025-07-26T18:05:47.032225,pacman.log,Jul 26 18:05:46	server	12436	pam_unix(sshd:session): session opened for user guest by (uid=1),0
+2025-07-26T18:05:51.612690,pacman.log,Jul 26 18:05:51	server	6365	message repeated 2 times: [ Failed password for root from 145.76.208.168 port 18144 ssh2],1
+2025-07-26T18:05:54.231118,pacman.log,Jul 26 18:05:54	LabSZ	2891	pam_unix(sshd:session): session closed for user backup,0
+2025-07-26T18:05:58.588935,pacman.log,Jul 26 18:05:58	server	2442	pam_unix(sshd:auth): check pass; user unknown,1
+2025-07-26T18:06:02.030086,pacman.log,Jul 26 18:06:01	LabSZ	14539	myservice[574014]: segfault at 000000000000 ip 00007f0a4e4b623a sp 00007ffde1e08a50 error 1 in libc-5.25.so[574014],1
+2025-07-26T18:06:02.102162,journalctl,Jul 26 18:06:01 bharch NetworkManager[2398]: <info>  [1753533361.6985] policy: set 'NFSU' (wlp0s20f3) as default for IPv6 routing and DNS,0
+2025-07-26T18:06:05.027201,pacman.log,Jul 26 18:06:04	prod1	23468	pam_unix(sshd:auth): authentication failure; logname= uid=7 euid=2 tty=ssh ruser= rhost=236.80.158.50,1
+2025-07-26T18:06:08.455988,pacman.log,Jul 26 18:06:08	server	21923	error: Received disconnect from 213.8.118.205: 40577: No more user authentication methods available. [preauth],1
+2025-07-26T18:06:10.851392,pacman.log,Jul 26 18:06:10	LabSZ	1158	Received disconnect from 3.218.134.245: 60: Bye Bye [preauth],0
+2025-07-26T18:06:13.217897,pacman.log,Jul 26 18:06:13	prod1	28530	Did not receive identification string from 81.32.44.99,0
+2025-07-26T18:06:16.446200,pacman.log,Jul 26 18:06:16	server	24518	pam_unix(sshd:session): session opened for user 123 by (uid=3),0
+2025-07-26T18:06:19.622253,pacman.log,Jul 26 18:06:19	LabSZ	24235	pam_unix(sshd:auth): check pass; user unknown,1
+2025-07-26T18:06:23.205956,pacman.log,Jul 26 18:06:23	LabSZ	6646	Connection closed by 160.71.39.99 [preauth],0
+2025-07-26T18:06:27.007065,pacman.log,Jul 26 18:06:26	testvm	6420	Received disconnect from 47.231.51.148: 92: disconnected by user,0
+2025-07-26T18:06:31.072589,pacman.log,Jul 26 18:06:31	testvm	18942	pam_unix(sshd:auth): check pass; user unknown,1
+2025-07-26T18:06:35.852128,pacman.log,Jul 26 18:06:35	testvm	7046	pam_unix(sshd:auth): check pass; user unknown,1
+2025-07-26T18:06:39.532368,pacman.log,Jul 26 18:06:39	LabSZ	19292	pam_unix(sshd:session): session closed for user backup,0
+2025-07-26T18:06:41.689043,pacman.log,Jul 26 18:06:41	testvm	19870	pam_unix(sshd:session): session opened for user webmaster by (uid=2),0
+2025-07-26T18:06:45.518875,pacman.log,Jul 26 18:06:45	server	15160	myservice[946397]: segfault at 000000000000 ip 00007f0a4e4b623a sp 00007ffde1e08a50 error 4 in libc-9.57.so[946397],1
+2025-07-26T18:06:48.872502,pacman.log,Jul 26 18:06:48	prod1	28093	Accepted password for ubuntu from 32.183.127.89 port 5436 ssh6,0
+2025-07-26T18:06:53.307294,pacman.log,Jul 26 18:06:53	testvm	2147	Received disconnect from 165.177.30.228: 43: Bye Bye [preauth],0
+2025-07-26T18:06:56.955956,pacman.log,Jul 26 18:06:56	testvm	25135	Received disconnect from 58.33.91.206: 35: Bye Bye [preauth],0
+2025-07-26T18:07:00.957605,pacman.log,Jul 26 18:07:00	prod1	21361	Received disconnect from 241.2.85.170: 40: Bye Bye [preauth],0
+2025-07-26T18:07:05.255205,pacman.log,Jul 26 18:07:05	testvm	6285	PAM 10 more authentication failures; logname= uid=4 euid=7 tty=ssh ruser= rhost=224.162.9.239  user=root,1
+2025-07-26T18:07:07.404825,pacman.log,Jul 26 18:07:07	LabSZ	7406	Failed password for user backup from 223.158.204.195 port 14623 ssh7,1
+2025-07-26T18:07:10.198254,pacman.log,Jul 26 18:07:10	LabSZ	19275	Connection closed by 246.135.99.92 [preauth],0
+2025-07-26T18:07:12.545068,pacman.log,Jul 26 18:07:12	testvm	9987	Connection closed by 167.19.154.131 [preauth],0
+2025-07-26T18:07:14.340537,journalctl,Jul 26 18:07:13 bharch sudo[38784]: pam_unix(sudo:session): session closed for user root,0
+2025-07-26T19:01:28.537794,journalctl,Jul 26 18:21:31 bharch xdg-desktop-por[16928]: A backend call failed: Inhibiting other than idle not supported,0
+2025-07-26T19:01:29.649245,journalctl,"Jul 26 18:43:41 bharch NetworkManager[2398]: <info>  [1753535621.1155] dhcp4 (wlp0s20f3): state changed new lease, address=10.200.59.18",0
+2025-07-26T19:01:30.722435,journalctl,Jul 26 18:43:41 bharch systemd[1]: Starting Network Manager Script Dispatcher Service...,0
+2025-07-26T19:01:31.787955,journalctl,Jul 26 18:43:41 bharch systemd[1]: Started Network Manager Script Dispatcher Service.,0
+2025-07-26T19:01:32.849760,journalctl,Jul 26 18:43:51 bharch systemd[1]: NetworkManager-dispatcher.service: Deactivated successfully.,0
+2025-07-26T19:01:33.521524,journalctl,Jul 26 18:54:19 bharch root[52374]: ACPI action undefined: PNP0C0A:00,0
+2025-07-26T19:01:33.569337,journalctl,Jul 26 18:54:19 bharch root[52379]: ACPI action undefined: ACPI0003:00,0
+2025-07-26T19:01:33.614919,journalctl,Jul 26 18:59:49 bharch xdg-desktop-por[16928]: A backend call failed: Inhibiting other than idle not supported,0
+2025-07-26T19:01:49.999350,pacman.log,Jul 26 19:01:49	prod1	11875	Failed password for invalid user chen from 68.16.61.69 port 51242 ssh5,1
+2025-07-26T19:01:50.379642,journalctl,Jul 26 19:01:49 bharch sudo[55263]:    rksha : TTY=pts/2 ; PWD=/home/rksha/Documents/Projects/log-anamoly-detector/Linux ; USER=root ; COMMAND=/usr/bin/python scripts/sim_ana.py,0
+2025-07-26T19:01:50.438301,journalctl,Jul 26 19:01:49 bharch sudo[55263]: pam_unix(sudo:session): session opened for user root(uid=0) by rksha(uid=1000),0
+2025-07-26T19:01:54.581243,pacman.log,Jul 26 19:01:54	LabSZ	10310	pam_unix(sshd:session): session closed for user test,0
+2025-07-26T19:01:58.463461,pacman.log,Jul 26 19:01:58	LabSZ	22948	Received disconnect from 107.200.207.45: 87: disconnected by user,0
+2025-07-26T19:02:00.660545,pacman.log,Jul 26 19:02:00	prod1	12211	Connection closed by 107.163.108.34 [preauth],0
+2025-07-26T19:02:03.528082,pacman.log,Jul 26 19:02:03	server	1625	Received disconnect from 102.239.237.93: 15: disconnected by user,0
+2025-07-26T19:02:06.532051,pacman.log,Jul 26 19:02:06	server	3994	PAM service(sshd) ignoring max retries; 5 > 2,0
+2025-07-26T19:02:09.996182,pacman.log,Jul 26 19:02:09	server	23479	pam_unix(sshd:auth): authentication failure; logname= uid=8 euid=3 tty=ssh ruser= rhost=23.45.196.19,1
+2025-07-26T19:02:14.302316,pacman.log,"Jul 26 19:02:14	LabSZ	13457	kernel: panic occurred, switching back to text console",1
+2025-07-26T19:02:17.829605,pacman.log,Jul 26 19:02:17	server	17417	pam_unix(sshd:session): session closed for user pgadmin,0
+2025-07-26T19:02:22.763589,pacman.log,Jul 26 19:02:22	LabSZ	10128	reverse mapping checking getaddrinfo for ns.randomdomain.com [13.45.211.234] failed - POSSIBLE BREAK-IN ATTEMPT!,1
+2025-07-26T19:02:27.253546,pacman.log,Jul 26 19:02:27	testvm	8939	PAM service(sshd) ignoring max retries; 5 > 4,0
+2025-07-26T19:02:30.286245,pacman.log,Jul 26 19:02:30	testvm	14158	fatal: Read from socket failed: Connection reset by peer,1
+2025-07-26T19:02:32.279145,pacman.log,Jul 26 19:02:32	LabSZ	6098	sudo: 123 : 3 incorrect password attempts ; TTY=pts/2 ; PWD=/home/user2 ; USER=root ; COMMAND=/usr/bin/vim /etc/sudoers,1
+2025-07-26T19:02:34.407395,pacman.log,Jul 26 19:02:34	testvm	29516	pam_unix(sshd:session): session opened for user test by (uid=1),0
+2025-07-26T19:02:36.604772,journalctl,Jul 26 19:02:36 bharch sudo[55263]: pam_unix(sudo:session): session closed for user root,0

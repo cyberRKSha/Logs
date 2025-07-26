@@ -1,0 +1,13 @@
+body {
+    font-family: sans-serif;
+    margin: 20px;
+    background: #1e1e1e;
+    color: #ddd;
+}
+h1, h2 { color: #fff; }
+table { width: 100%; border-collapse: collapse; }
+th, td { padding: 5px 10px; border: 1px solid #444; }
+.anomaly { background: #4a0000; }
+.normal { background: #669666; }
+.alert { color: #ffcc00; margin-bottom: 10px; }
+.section { margin-bottom: 30px; }

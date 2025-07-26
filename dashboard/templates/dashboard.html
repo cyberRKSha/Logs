@@ -1,0 +1,131 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>🚀 Log Anomaly Dashboard</title>
+  <link rel="stylesheet" href="/static/style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body { background: #f8f9fa; font-family: monospace; }
+    .log.normal { color: #198754; }
+    .log.anomaly { color: #dc3545; font-weight: bold; }
+    .alert-box { background: #ffc107; padding: 10px; border-radius: 5px; margin-bottom: 10px; }
+  </style>
+</head>
+<body class="container py-4">
+  <h1 class="mb-4 text-primary">🚀 Log Anomaly Dashboard</h1>
+
+  <div class="row mb-3">
+    <div class="col">
+      <div class="card text-bg-success">
+        <div class="card-body">✅ Normal logs: <span id="normal-count">0</span></div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card text-bg-danger">
+        <div class="card-body">⚠️ Anomaly logs: <span id="anomaly-count">0</span></div>
+      </div>
+    </div>
+  </div>
+
+  <canvas id="chart" height="100"></canvas>
+
+  <h4 class="mt-4">🚨 Alerts</h4>
+  <div id="alerts"></div>
+
+  <h4 class="mt-4">📜 Recent Logs</h4>
+  <div id="logs" class="border p-2 bg-white rounded" style="max-height:300px; overflow:auto;"></div>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script>
+  const ws = new WebSocket(`ws://${location.host}/ws`);
+  const alerts = document.getElementById('alerts');
+  const logs = document.getElementById('logs');
+
+  ws.onmessage = e => {
+    const data = JSON.parse(e.data);
+    if (data.type === 'alert') {
+      const box = document.createElement('div');
+      box.className = 'alert-box';
+      box.innerHTML = `<strong>${data.advice}</strong><br>${data.log}`;
+      alerts.prepend(box);
+    } else {
+      const div = document.createElement('div');
+      div.className = 'log ' + data.label;
+      div.textContent = `[${data.label.toUpperCase()}] ${data.log}`;
+      logs.prepend(div);
+    }
+  };
+
+  async function loadStats() {
+    const r = await fetch('/api/stats');
+    const d = await r.json();
+    document.getElementById('normal-count').innerText = d.normal;
+    document.getElementById('anomaly-count').innerText = d.anomaly;
+    const grouped = {};
+    d.timeline.forEach(t => {
+      const key = t.time.slice(0, 16);
+      if (!grouped[key]) grouped[key] = 0;
+      if (t.label === 'anomaly') grouped[key]++;
+    });
+    chart.data.labels = Object.keys(grouped);
+    chart.data.datasets[0].data = Object.values(grouped);
+    chart.update();
+  }
+
+  const ctx = document.getElementById('chart');
+  const chart = new Chart(ctx, {
+    type: 'line',
+    data: { labels: [], datasets: [{ label: '# of anomalies', data: [], borderColor: '#dc3545' }] },
+  });
+
+  loadStats();
+  setInterval(loadStats, 5000);
+</script>
+</body>
+</html> -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Log Anomaly Dashboard</title>
+    <link rel="stylesheet" href="/static/style.css" />
+</head>
+<body>
+    <h1>🚀 Log Anomaly Dashboard</h1>
+
+    <div class="section">
+        <h2>Incoming Logs</h2>
+        <table id="logs-table">
+            <thead>
+                <tr><th>Timestamp</th><th>Label</th><th>Log</th></tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+    </div>
+
+    <div class="section">
+        <h2>⚠️ Critical Alerts</h2>
+        <ul id="alerts-list"></ul>
+    </div>
+
+    <script src="/static/script.js"></script>
+</body>
+</html>
+
+
+
