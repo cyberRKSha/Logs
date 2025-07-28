@@ -3,6 +3,8 @@ import os
 import pandas as pd
 import joblib
 import numpy as np
+from sklearn.metrics import confusion_matrix, accuracy_score
+from sklearn.metrics import classification_report
 
 def log_info(msg): print(f"\033[94mℹ️ {msg}\033[0m")
 def log_success(msg): print(f"\033[92m✅ {msg}\033[0m")
@@ -41,6 +43,22 @@ if new_logs.empty:
 
 log_info(f"📦 Found {len(new_logs)} new logs "
         f"(normal: {(new_logs['label']==0).sum()}, anomaly: {(new_logs['label']==1).sum()})")
+
+log_info("🔢 Evaluating current model on new batch…")
+X_eval = embedder.encode(
+    new_logs['content'].astype(str).tolist(),
+    show_progress_bar=True
+)
+y_true = new_logs['label'].astype(int).tolist()
+y_pred = model.predict(X_eval)
+
+cm  = confusion_matrix(y_true, y_pred)
+acc = accuracy_score(y_true, y_pred)
+
+log_info(f"📊 Confusion Matrix:\n{cm.tolist()}")   
+log_info(f"✔ Accuracy on new batch: {acc:.2%}")
+print("Classification report:")
+log_info(classification_report(y_true, y_pred, target_names=['Normal','Anomaly']))
 
 log_info("🔢 Generating embeddings...")
 X_new = embedder.encode(new_logs['content'].astype(str).tolist(), show_progress_bar=True)

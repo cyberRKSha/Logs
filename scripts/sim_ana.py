@@ -104,7 +104,6 @@ def random_number():
 
 def generate_normal_log():
     templates = [
-        "pam_unix(sshd:auth): check pass; user unknown",
         "pam_unix(sshd:session): session closed for user {user}",
         "pam_unix(sshd:session): session opened for user {user} by (uid={try1})",
         "Connection closed by {ip} [preauth]",

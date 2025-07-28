@@ -81,9 +81,10 @@ def log_prediction(label_str, log_text):
         pf.write(f"{timestamp},{label_str},{log_text}\n")
 
 def send_to_dashboard(log_text, label_str):
+    payload = {"log": log_text, "label": label_str}
     try:
         requests.post(f"{DASHBOARD_URL}/api/new_log",
-                      json={"log": log_text, "label": label_str}, timeout=1)
+                      json=payload, timeout=1)
     except Exception as e:
         log_warning(f"Failed to send to dashboard: {e}")
 
@@ -126,7 +127,7 @@ def process_log(source, line):
     pred = model.predict(embedding)[0]
     label_str = 'anomaly' if pred == 1 else 'normal'
 
-    if pred == 1:
+    if label_str == 'anomaly':
         log_error(f" Anomaly detected in {source}: {line}")
     else:
         log_success(f" Normal in {source}: {line}")
@@ -135,14 +136,14 @@ def process_log(source, line):
     send_to_dashboard(line, label_str)
 
     if is_new_log_and_save_hash(line):
-        log_to_csv(source, line, pred)
+        log_to_csv(source, line, label_str)
     else:
         if not os.path.exists(REAL_LOG_CSV):
             with open(REAL_LOG_CSV, 'w', newline='', encoding='utf-8') as f:
                 csv.writer(f).writerow(['timestamp', 'source', 'content', 'label'])
         timestamp = datetime.now().isoformat()
         with open(REAL_LOG_CSV, 'a', newline='', encoding='utf-8') as f:
-            csv.writer(f).writerow([timestamp, source, line, pred])
+            csv.writer(f).writerow([timestamp, source, line, label_str])
         log_info(f"🔁 Duplicate text → skipped review, added to real_log.csv")
 
     if label_str == 'anomaly':
