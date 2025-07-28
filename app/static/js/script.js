@@ -89,19 +89,20 @@ function addLogRow(data) {
     row.className = 'fade-in';
 
     let timestamp = data.timestamp || '-';
-    let label = (data.label || '').toLowerCase();
+    let rawLabel = data.label;  // could be '1' or '0' or true/false etc.
     let log = data.log || '-';
 
-    row.innerHTML = `<td>${timestamp}</td><td>${label}</td><td>${log}</td>`;
+    // Map numeric/boolean label to string
+    let labelText = (rawLabel == '1' || rawLabel == 1 || rawLabel === true) ? 'anomaly' : 'normal';
 
-    if (label === 'anomaly') {
+    row.innerHTML = `<td>${timestamp}</td><td>${labelText}</td><td>${log}</td>`;
+
+    if (labelText === 'anomaly') {
         row.classList.add('log-anomaly');
         anomalyCount++;
-    } else if (label === 'normal') {
+    } else if (labelText === 'normal') {
         row.classList.add('log-normal');
         normalCount++;
-    } else {
-        row.style.color = 'gray';
     }
 
     totalCount++;
